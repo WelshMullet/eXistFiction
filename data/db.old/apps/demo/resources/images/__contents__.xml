@@ -1,0 +1,54 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/demo/resources/images" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.774Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="ajax-loader.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.777Z" modified="2014-02-22T16:28:42.777Z" filename="ajax-loader.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="bold.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.78Z" modified="2014-02-22T16:28:42.78Z" filename="bold.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="code.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.883Z" modified="2014-02-22T16:28:42.883Z" filename="code.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="delete-icon.png" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.886Z" modified="2014-02-22T16:28:42.886Z" filename="delete-icon.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="eXide-screenshot.png" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.889Z" modified="2014-02-22T16:28:42.889Z" filename="eXide-screenshot.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="glyphicons-halflings.png" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.901Z" modified="2014-02-22T16:28:42.901Z" filename="glyphicons-halflings.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="grey-box-bot.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.936Z" modified="2014-02-22T16:28:42.936Z" filename="grey-box-bot.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="grey-box-rpt.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.939Z" modified="2014-02-22T16:28:42.939Z" filename="grey-box-rpt.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="grey-box-top.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.941Z" modified="2014-02-22T16:28:42.941Z" filename="grey-box-top.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="italic.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.944Z" modified="2014-02-22T16:28:42.944Z" filename="italic.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="nav-dropdown.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.98Z" modified="2014-02-22T16:28:42.98Z" filename="nav-dropdown.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="nav-dropdown.png" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.983Z" modified="2014-02-22T16:28:42.983Z" filename="nav-dropdown.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="nav.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.985Z" modified="2014-02-22T16:28:42.985Z" filename="nav.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="page-edit-icon.png" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:42.988Z" modified="2014-02-22T16:28:42.988Z" filename="page-edit-icon.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="twitter-left.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:43.052Z" modified="2014-02-22T16:28:43.052Z" filename="twitter-left.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="twitter-right.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:43.054Z" modified="2014-02-22T16:28:43.054Z" filename="twitter-right.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="twitter-rpt.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:43.057Z" modified="2014-02-22T16:28:43.057Z" filename="twitter-rpt.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

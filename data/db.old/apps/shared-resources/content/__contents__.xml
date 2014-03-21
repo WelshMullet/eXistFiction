@@ -1,0 +1,15 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/shared-resources/content" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:17.659Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="apputil.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:17.664Z" modified="2014-02-22T16:28:17.664Z" filename="apputil.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="dbutils.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:18.577Z" modified="2014-02-22T16:28:18.577Z" filename="dbutils.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="siteutils.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:18.614Z" modified="2014-02-22T16:28:18.614Z" filename="siteutils.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="templates.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:19.162Z" modified="2014-02-22T16:28:19.162Z" filename="templates.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

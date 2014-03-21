@@ -1,0 +1,15 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/XSLTForms-Demo/modules" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:11.742Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="app.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:11.746Z" modified="2014-02-22T16:29:11.746Z" filename="app.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="config.xqm" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:11.752Z" modified="2014-02-22T16:29:11.752Z" filename="config.xqm" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="form.xq" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:11.772Z" modified="2014-02-22T16:29:11.772Z" filename="form.xq" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="view.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:11.794Z" modified="2014-02-22T16:29:11.794Z" filename="view.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

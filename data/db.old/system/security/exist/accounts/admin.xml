@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<account xmlns="http://exist-db.org/Configuration" id="1048574"><password>{RIPEMD160}fdEvOpr6AoKldbjvmd6ioMG+y1E=</password><digestPassword>140e07e6f04594b02c80bfd1cbc893890c32e096</digestPassword><group name="dba"/><expired>false</expired><enabled>true</enabled><umask>022</umask><metadata key="http://exist-db.org/security/description">System Administrator</metadata><metadata key="http://axschema.org/namePerson">admin</metadata><name>admin</name></account>

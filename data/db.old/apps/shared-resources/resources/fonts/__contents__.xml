@@ -1,0 +1,15 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/shared-resources/resources/fonts" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.107Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="glyphicons-halflings-regular.svg" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.129Z" modified="2014-02-22T16:28:20.129Z" filename="glyphicons-halflings-regular.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="glyphicons-halflings-regular.ttf" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.411Z" modified="2014-02-22T16:28:20.411Z" filename="glyphicons-halflings-regular.ttf" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="glyphicons-halflings-regular.woff" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.416Z" modified="2014-02-22T16:28:20.416Z" filename="glyphicons-halflings-regular.woff" mimetype="application/font-woff">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="glyphicons-halflings-regular.eot" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.111Z" modified="2014-02-22T16:28:20.111Z" filename="glyphicons-halflings-regular.eot" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

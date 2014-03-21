@@ -1,0 +1,9 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/dashboard/plugins/images" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:34.561Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="backup.png" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:34.565Z" modified="2014-02-22T16:28:34.565Z" filename="backup.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="shutdown.png" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:34.568Z" modified="2014-02-22T16:28:34.568Z" filename="shutdown.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

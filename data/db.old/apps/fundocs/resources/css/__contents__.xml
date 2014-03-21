@@ -1,0 +1,9 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/fundocs/resources/css" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.827Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="exist.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:07.833Z" modified="2014-02-22T16:29:07.833Z" filename="exist.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fundocs.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:07.839Z" modified="2014-02-22T16:29:07.839Z" filename="fundocs.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

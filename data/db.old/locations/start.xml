@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<location><id> 1 </id><name> "Your Office" </name><description> "This is your office, where you keep case notes from the past, and do your paperwork" </description><background> "db/images/1.jpg"	</background><links><string> "/xmlrpc/db/locations/2" </string></links></location>

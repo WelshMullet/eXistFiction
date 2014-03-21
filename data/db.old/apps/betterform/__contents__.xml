@@ -1,0 +1,37 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/betterform" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:30.241Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="repo.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.559Z" modified="2014-02-22T16:28:32.559Z" filename="repo.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="collection.xconf" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:30.244Z" modified="2014-02-22T16:28:30.244Z" filename="collection.xconf" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="controller.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:30.248Z" modified="2014-02-22T16:28:30.248Z" filename="controller.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="dashboard.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:30.411Z" modified="2014-02-22T16:28:30.411Z" filename="dashboard.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="error-page.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:30.428Z" modified="2014-02-22T16:28:30.428Z" filename="error-page.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="expath-pkg.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:30.432Z" modified="2014-02-22T16:28:30.432Z" filename="expath-pkg.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="FeatureExplorer.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:30.435Z" modified="2014-02-22T16:28:30.435Z" filename="FeatureExplorer.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="icon.png" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:30.439Z" modified="2014-02-22T16:28:30.439Z" filename="icon.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="pre-install.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:30.442Z" modified="2014-02-22T16:28:30.442Z" filename="pre-install.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Status.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:30.444Z" modified="2014-02-22T16:28:30.444Z" filename="Status.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="resources" filename="resources"/>
+    <subcollection name="demo" filename="demo"/>
+    <subcollection name="reference" filename="reference"/>
+    <subcollection name="modules" filename="modules"/>
+</collection>

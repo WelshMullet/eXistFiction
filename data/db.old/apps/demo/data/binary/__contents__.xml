@@ -1,0 +1,9 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/demo/data/binary" version="1" owner="admin" group="dba" mode="777" created="2014-02-22T16:28:40.145Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="Noah.pdf" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.148Z" modified="2014-02-22T16:28:40.148Z" filename="Noah.pdf" mimetype="application/pdf">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="README" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.172Z" modified="2014-02-22T16:28:40.172Z" filename="README" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

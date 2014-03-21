@@ -1,0 +1,18 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/betterform/reference/resources" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.501Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="1.200.jpg" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.505Z" modified="2014-02-22T16:28:32.505Z" filename="1.200.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="htmlToEmbed.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.51Z" modified="2014-02-22T16:28:32.51Z" filename="htmlToEmbed.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Load-Embed-CSS-JavaScript-Subform.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.515Z" modified="2014-02-22T16:28:32.515Z" filename="Load-Embed-CSS-JavaScript-Subform.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="script.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.519Z" modified="2014-02-22T16:28:32.519Z" filename="script.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="style.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.523Z" modified="2014-02-22T16:28:32.523Z" filename="style.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

@@ -1,0 +1,19 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/eXide/resources/css" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:56.039Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="docs.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:56.043Z" modified="2014-02-22T16:28:56.043Z" filename="docs.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="docs.less" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:56.047Z" modified="2014-02-22T16:28:56.047Z" filename="docs.less" mimetype="application/less">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="eXide.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:56.054Z" modified="2014-02-22T16:28:56.054Z" filename="eXide.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="search.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:56.064Z" modified="2014-02-22T16:28:56.064Z" filename="search.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xml2html.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:56.068Z" modified="2014-02-22T16:28:56.068Z" filename="xml2html.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="black-tie" filename="black-tie"/>
+</collection>

@@ -1,0 +1,141 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/XSLTForms-Demo/data" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:11.543Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="survey.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.688Z" modified="2014-02-22T16:29:11.688Z" filename="survey.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="textarea.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.694Z" modified="2014-02-22T16:29:11.694Z" filename="textarea.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tic-tac-toe.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.699Z" modified="2014-02-22T16:29:11.699Z" filename="tic-tac-toe.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tinymce.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.704Z" modified="2014-02-22T16:29:11.704Z" filename="tinymce.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="uploads.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.708Z" modified="2014-02-22T16:29:11.708Z" filename="uploads.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="vertical-tabs.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.713Z" modified="2014-02-22T16:29:11.713Z" filename="vertical-tabs.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="wikipediasearch.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.717Z" modified="2014-02-22T16:29:11.717Z" filename="wikipediasearch.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="writers.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.723Z" modified="2014-02-22T16:29:11.723Z" filename="writers.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xforms-example-hello2.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.728Z" modified="2014-02-22T16:29:11.728Z" filename="xforms-example-hello2.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="XMLSchemaTypeCode.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.731Z" modified="2014-02-22T16:29:11.731Z" filename="XMLSchemaTypeCode.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xpath.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.735Z" modified="2014-02-22T16:29:11.735Z" filename="xpath.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="address.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.547Z" modified="2014-02-22T16:29:11.547Z" filename="address.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="balance.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.551Z" modified="2014-02-22T16:29:11.551Z" filename="balance.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="bind.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.555Z" modified="2014-02-22T16:29:11.555Z" filename="bind.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="bookmarks.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.559Z" modified="2014-02-22T16:29:11.559Z" filename="bookmarks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="books.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.562Z" modified="2014-02-22T16:29:11.562Z" filename="books.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="button.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.565Z" modified="2014-02-22T16:29:11.565Z" filename="button.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="calculator.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.571Z" modified="2014-02-22T16:29:11.571Z" filename="calculator.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="cascading-selects.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.577Z" modified="2014-02-22T16:29:11.577Z" filename="cascading-selects.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="checkbox.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.581Z" modified="2014-02-22T16:29:11.581Z" filename="checkbox.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="colors.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.584Z" modified="2014-02-22T16:29:11.584Z" filename="colors.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="contact.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.587Z" modified="2014-02-22T16:29:11.587Z" filename="contact.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="counties.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.592Z" modified="2014-02-22T16:29:11.592Z" filename="counties.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="css.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.598Z" modified="2014-02-22T16:29:11.598Z" filename="css.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="date.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.601Z" modified="2014-02-22T16:29:11.601Z" filename="date.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="deep-copy.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.604Z" modified="2014-02-22T16:29:11.604Z" filename="deep-copy.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="examples.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.609Z" modified="2014-02-22T16:29:11.609Z" filename="examples.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="first-field.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.615Z" modified="2014-02-22T16:29:11.615Z" filename="first-field.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="flag.svg" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.619Z" modified="2014-02-22T16:29:11.619Z" filename="flag.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="flags.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.622Z" modified="2014-02-22T16:29:11.622Z" filename="flags.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="gantt.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.628Z" modified="2014-02-22T16:29:11.628Z" filename="gantt.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="gauges.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.637Z" modified="2014-02-22T16:29:11.637Z" filename="gauges.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="hello.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.641Z" modified="2014-02-22T16:29:11.641Z" filename="hello.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="hello2.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.644Z" modified="2014-02-22T16:29:11.644Z" filename="hello2.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="horizontal-tabs.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.647Z" modified="2014-02-22T16:29:11.647Z" filename="horizontal-tabs.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="incremental.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.651Z" modified="2014-02-22T16:29:11.651Z" filename="incremental.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="input-width.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.654Z" modified="2014-02-22T16:29:11.654Z" filename="input-width.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="input.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.658Z" modified="2014-02-22T16:29:11.658Z" filename="input.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="piechart.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.661Z" modified="2014-02-22T16:29:11.661Z" filename="piechart.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="secret.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.664Z" modified="2014-02-22T16:29:11.664Z" filename="secret.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="select-from-file.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.667Z" modified="2014-02-22T16:29:11.667Z" filename="select-from-file.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="select-model.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.67Z" modified="2014-02-22T16:29:11.67Z" filename="select-model.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="select-multi-col.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.674Z" modified="2014-02-22T16:29:11.674Z" filename="select-multi-col.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="select1-drop.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.679Z" modified="2014-02-22T16:29:11.679Z" filename="select1-drop.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="select1.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.682Z" modified="2014-02-22T16:29:11.682Z" filename="select1.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="spreadsheet.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.685Z" modified="2014-02-22T16:29:11.685Z" filename="spreadsheet.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

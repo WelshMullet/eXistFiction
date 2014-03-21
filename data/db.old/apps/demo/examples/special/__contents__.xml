@@ -1,0 +1,18 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/demo/examples/special" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.257Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="i18n-docs.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.26Z" modified="2014-02-22T16:28:40.26Z" filename="i18n-docs.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="i18n.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.264Z" modified="2014-02-22T16:28:40.264Z" filename="i18n.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.269Z" modified="2014-02-22T16:28:40.269Z" filename="index.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="json.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.272Z" modified="2014-02-22T16:28:40.272Z" filename="json.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="json.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.275Z" modified="2014-02-22T16:28:40.275Z" filename="json.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

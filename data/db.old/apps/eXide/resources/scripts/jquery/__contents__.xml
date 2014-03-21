@@ -1,0 +1,52 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/eXide/resources/scripts/jquery" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:56.905Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="slick.core.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.513Z" modified="2014-02-22T16:28:57.513Z" filename="slick.core.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="slick.editors.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.527Z" modified="2014-02-22T16:28:57.527Z" filename="slick.editors.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="slick.formatters.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.584Z" modified="2014-02-22T16:28:57.584Z" filename="slick.formatters.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="slick.grid.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.588Z" modified="2014-02-22T16:28:57.588Z" filename="slick.grid.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="slick.grid.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.609Z" modified="2014-02-22T16:28:57.609Z" filename="slick.grid.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="slick.rowselectionmodel.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.631Z" modified="2014-02-22T16:28:57.631Z" filename="slick.rowselectionmodel.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery-1.9.1.min.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:56.946Z" modified="2014-02-22T16:28:56.946Z" filename="jquery-1.9.1.min.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery-ui-1.10.3.custom.min.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.076Z" modified="2014-02-22T16:28:57.076Z" filename="jquery-ui-1.10.3.custom.min.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.event.drag-2.2.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.128Z" modified="2014-02-22T16:28:57.128Z" filename="jquery.event.drag-2.2.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.fileupload-ui.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.198Z" modified="2014-02-22T16:28:57.198Z" filename="jquery.fileupload-ui.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.fileupload.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.297Z" modified="2014-02-22T16:28:57.297Z" filename="jquery.fileupload.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.layout-1.3.0.rc30.79.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.337Z" modified="2014-02-22T16:28:57.337Z" filename="jquery.layout-1.3.0.rc30.79.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.layout-latest.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.37Z" modified="2014-02-22T16:28:57.37Z" filename="jquery.layout-latest.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.plugins.min.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.421Z" modified="2014-02-22T16:28:57.421Z" filename="jquery.plugins.min.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="slick.cellrangeselector.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.499Z" modified="2014-02-22T16:28:57.499Z" filename="slick.cellrangeselector.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="slick.cellselectionmodel.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.504Z" modified="2014-02-22T16:28:57.504Z" filename="slick.cellselectionmodel.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="images" filename="images"/>
+</collection>

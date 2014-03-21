@@ -1,0 +1,9 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/locations" version="1" owner="admin" group="dba" mode="755" created="2014-03-11T05:14:39.353Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="start.xml" skip="no" owner="admin" group="dba" mode="644" created="2014-03-11T05:17:50.591Z" modified="2014-03-11T05:30:35.125Z" filename="start.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="locations.xml" skip="no" owner="admin" group="dba" mode="644" created="2014-03-11T05:27:33.97Z" modified="2014-03-11T05:27:33.97Z" filename="locations.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

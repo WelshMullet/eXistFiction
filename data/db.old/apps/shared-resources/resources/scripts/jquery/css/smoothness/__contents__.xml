@@ -1,0 +1,43 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/shared-resources/resources/scripts/jquery/css/smoothness" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.142Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="jquery.ui.tabs.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.184Z" modified="2014-02-22T16:28:24.184Z" filename="jquery.ui.tabs.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.theme.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.187Z" modified="2014-02-22T16:28:24.187Z" filename="jquery.ui.theme.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.accordion.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.145Z" modified="2014-02-22T16:28:24.145Z" filename="jquery.ui.accordion.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.all.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.149Z" modified="2014-02-22T16:28:24.149Z" filename="jquery.ui.all.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.autocomplete.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.152Z" modified="2014-02-22T16:28:24.152Z" filename="jquery.ui.autocomplete.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.base.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.156Z" modified="2014-02-22T16:28:24.156Z" filename="jquery.ui.base.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.button.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.159Z" modified="2014-02-22T16:28:24.159Z" filename="jquery.ui.button.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.core.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.162Z" modified="2014-02-22T16:28:24.162Z" filename="jquery.ui.core.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.datepicker.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.167Z" modified="2014-02-22T16:28:24.167Z" filename="jquery.ui.datepicker.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.dialog.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.171Z" modified="2014-02-22T16:28:24.171Z" filename="jquery.ui.dialog.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.progressbar.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.174Z" modified="2014-02-22T16:28:24.174Z" filename="jquery.ui.progressbar.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.resizable.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.177Z" modified="2014-02-22T16:28:24.177Z" filename="jquery.ui.resizable.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jquery.ui.slider.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:24.18Z" modified="2014-02-22T16:28:24.18Z" filename="jquery.ui.slider.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="images" filename="images"/>
+</collection>

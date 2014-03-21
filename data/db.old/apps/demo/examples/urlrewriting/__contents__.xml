@@ -1,0 +1,15 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/demo/examples/urlrewriting" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.419Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="bad-page.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.423Z" modified="2014-02-22T16:28:40.423Z" filename="bad-page.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.425Z" modified="2014-02-22T16:28:40.425Z" filename="index.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="login.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.428Z" modified="2014-02-22T16:28:40.428Z" filename="login.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="protected.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.431Z" modified="2014-02-22T16:28:40.431Z" filename="protected.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

@@ -1,0 +1,185 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/betterform/reference" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.239Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="Select1Open.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.3Z" modified="2014-02-22T16:28:32.3Z" filename="Select1Open.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Select1RadioButton.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.31Z" modified="2014-02-22T16:28:32.31Z" filename="Select1RadioButton.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="SelectCheckboxes.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.32Z" modified="2014-02-22T16:28:32.32Z" filename="SelectCheckboxes.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="SelectList.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.33Z" modified="2014-02-22T16:28:32.33Z" filename="SelectList.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="SelectListOpen.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.34Z" modified="2014-02-22T16:28:32.34Z" filename="SelectListOpen.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="SwitchPlain.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.351Z" modified="2014-02-22T16:28:32.351Z" filename="SwitchPlain.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="SwitchTabContainer.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.359Z" modified="2014-02-22T16:28:32.359Z" filename="SwitchTabContainer.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="TextareaGrowing.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.368Z" modified="2014-02-22T16:28:32.368Z" filename="TextareaGrowing.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="TextareaHTML.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.377Z" modified="2014-02-22T16:28:32.377Z" filename="TextareaHTML.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="TextareaSimple.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.386Z" modified="2014-02-22T16:28:32.386Z" filename="TextareaSimple.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="TriggerButton.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.395Z" modified="2014-02-22T16:28:32.395Z" filename="TriggerButton.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="TriggerCSSImage.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.405Z" modified="2014-02-22T16:28:32.405Z" filename="TriggerCSSImage.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="TriggerImage.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.414Z" modified="2014-02-22T16:28:32.414Z" filename="TriggerImage.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="TriggerLink.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.422Z" modified="2014-02-22T16:28:32.422Z" filename="TriggerLink.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="TriggerLinkedImage.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.43Z" modified="2014-02-22T16:28:32.43Z" filename="TriggerLinkedImage.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Uploadbase64.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.438Z" modified="2014-02-22T16:28:32.438Z" filename="Uploadbase64.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="UploadFile.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.455Z" modified="2014-02-22T16:28:32.455Z" filename="UploadFile.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="UploadhexBinary.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.465Z" modified="2014-02-22T16:28:32.465Z" filename="UploadhexBinary.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="AlertDefault.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.246Z" modified="2014-02-22T16:28:31.246Z" filename="AlertDefault.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="AlertDefaultTypes.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.271Z" modified="2014-02-22T16:28:31.271Z" filename="AlertDefaultTypes.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="AlertTooltip.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.304Z" modified="2014-02-22T16:28:31.304Z" filename="AlertTooltip.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="AVTThemeSwitcher.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.327Z" modified="2014-02-22T16:28:31.327Z" filename="AVTThemeSwitcher.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="container-overview.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.342Z" modified="2014-02-22T16:28:31.342Z" filename="container-overview.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="control-overview.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.347Z" modified="2014-02-22T16:28:31.347Z" filename="control-overview.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Dialog.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.405Z" modified="2014-02-22T16:28:31.405Z" filename="Dialog.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="EmbedHTML.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.425Z" modified="2014-02-22T16:28:31.425Z" filename="EmbedHTML.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="FeatureExplorer.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.44Z" modified="2014-02-22T16:28:31.44Z" filename="FeatureExplorer.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="GroupCompact.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.54Z" modified="2014-02-22T16:28:31.54Z" filename="GroupCompact.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="GroupDefault.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.565Z" modified="2014-02-22T16:28:31.565Z" filename="GroupDefault.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="GroupFocus.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.587Z" modified="2014-02-22T16:28:31.587Z" filename="GroupFocus.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="GroupFull.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.603Z" modified="2014-02-22T16:28:31.603Z" filename="GroupFull.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="GroupHorizontalTable.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.624Z" modified="2014-02-22T16:28:31.624Z" filename="GroupHorizontalTable.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="GroupMinimal.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.654Z" modified="2014-02-22T16:28:31.654Z" filename="GroupMinimal.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="GroupVerticalTable.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.758Z" modified="2014-02-22T16:28:31.758Z" filename="GroupVerticalTable.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="GroupVerticalTableComplex.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.783Z" modified="2014-02-22T16:28:31.783Z" filename="GroupVerticalTableComplex.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="InputCalendar.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.828Z" modified="2014-02-22T16:28:31.828Z" filename="InputCalendar.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="InputCalendarAndTime.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.849Z" modified="2014-02-22T16:28:31.849Z" filename="InputCalendarAndTime.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="InputCalendarWithDatePattern.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.961Z" modified="2014-02-22T16:28:31.961Z" filename="InputCalendarWithDatePattern.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="InputCheckbox.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:31.99Z" modified="2014-02-22T16:28:31.99Z" filename="InputCheckbox.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="InputDropDownDate.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.006Z" modified="2014-02-22T16:28:32.006Z" filename="InputDropDownDate.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="InputText.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.024Z" modified="2014-02-22T16:28:32.024Z" filename="InputText.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="InputTextHintHelp.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.04Z" modified="2014-02-22T16:28:32.04Z" filename="InputTextHintHelp.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="InputTime.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.054Z" modified="2014-02-22T16:28:32.054Z" filename="InputTime.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="intro.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.089Z" modified="2014-02-22T16:28:32.089Z" filename="intro.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="LoadEmbed.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.094Z" modified="2014-02-22T16:28:32.094Z" filename="LoadEmbed.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="LoadNew.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.102Z" modified="2014-02-22T16:28:32.102Z" filename="LoadNew.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ModelToModelSubmission.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.11Z" modified="2014-02-22T16:28:32.11Z" filename="ModelToModelSubmission.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="OutputDefault.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.118Z" modified="2014-02-22T16:28:32.118Z" filename="OutputDefault.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="OutputHTML.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.133Z" modified="2014-02-22T16:28:32.133Z" filename="OutputHTML.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="OutputImage.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.148Z" modified="2014-02-22T16:28:32.148Z" filename="OutputImage.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="OutputLink.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.176Z" modified="2014-02-22T16:28:32.176Z" filename="OutputLink.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="RangeRating.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.191Z" modified="2014-02-22T16:28:32.191Z" filename="RangeRating.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="RangeSlider.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.208Z" modified="2014-02-22T16:28:32.208Z" filename="RangeSlider.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="reference.css" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.231Z" modified="2014-02-22T16:28:32.231Z" filename="reference.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="RepeatCompact.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.235Z" modified="2014-02-22T16:28:32.235Z" filename="RepeatCompact.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="RepeatFull.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.247Z" modified="2014-02-22T16:28:32.247Z" filename="RepeatFull.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="RepeatTable.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.257Z" modified="2014-02-22T16:28:32.257Z" filename="RepeatTable.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Secret.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.269Z" modified="2014-02-22T16:28:32.269Z" filename="Secret.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Select1Combobox.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.278Z" modified="2014-02-22T16:28:32.278Z" filename="Select1Combobox.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Select1List.xhtml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:32.29Z" modified="2014-02-22T16:28:32.29Z" filename="Select1List.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="images" filename="images"/>
+    <subcollection name="resources" filename="resources"/>
+</collection>

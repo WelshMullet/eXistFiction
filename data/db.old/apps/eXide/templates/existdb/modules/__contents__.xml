@@ -1,0 +1,12 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/eXide/templates/existdb/modules" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:58.28Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="app.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:58.284Z" modified="2014-02-22T16:28:58.284Z" filename="app.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="config.xqm" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:58.287Z" modified="2014-02-22T16:28:58.287Z" filename="config.xqm" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="view.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:58.29Z" modified="2014-02-22T16:28:58.29Z" filename="view.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

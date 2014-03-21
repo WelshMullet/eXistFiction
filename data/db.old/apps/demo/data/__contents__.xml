@@ -1,0 +1,21 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/demo/data" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:37.274Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="hamlet.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:37.285Z" modified="2014-02-22T16:28:37.285Z" filename="hamlet.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="macbeth.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:38.867Z" modified="2014-02-22T16:28:38.867Z" filename="macbeth.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="mondial.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:39.121Z" modified="2014-02-22T16:28:39.121Z" filename="mondial.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="r_and_j.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:39.789Z" modified="2014-02-22T16:28:39.789Z" filename="r_and_j.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="shakes.xsl" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.01Z" modified="2014-02-22T16:28:40.01Z" filename="shakes.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="addresses" filename="addresses"/>
+    <subcollection name="binary" filename="binary"/>
+    <subcollection name="i18n" filename="i18n"/>
+</collection>

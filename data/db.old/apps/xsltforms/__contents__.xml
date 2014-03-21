@@ -1,0 +1,174 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/xsltforms" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:09.333Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="config_zh_TW.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.43Z" modified="2014-02-22T16:29:09.43Z" filename="config_zh_TW.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="dump.php" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.444Z" modified="2014-02-22T16:29:09.444Z" filename="dump.php" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="echo-zip.php" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.447Z" modified="2014-02-22T16:29:09.447Z" filename="echo-zip.php" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="echo.php" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.45Z" modified="2014-02-22T16:29:09.45Z" filename="echo.php" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="empty.xlsx" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.454Z" modified="2014-02-22T16:29:09.454Z" filename="empty.xlsx" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="expath-pkg.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.458Z" modified="2014-02-22T16:29:09.458Z" filename="expath-pkg.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="F1.png" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.462Z" modified="2014-02-22T16:29:09.462Z" filename="F1.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="focus.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.464Z" modified="2014-02-22T16:29:09.464Z" filename="focus.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="icon_error.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.476Z" modified="2014-02-22T16:29:09.476Z" filename="icon_error.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="icon_help.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.478Z" modified="2014-02-22T16:29:09.478Z" filename="icon_help.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="icon_hint.gif" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.481Z" modified="2014-02-22T16:29:09.481Z" filename="icon_hint.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="magnify.png" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.483Z" modified="2014-02-22T16:29:09.483Z" filename="magnify.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="poweredbyXSLTForms.png" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.486Z" modified="2014-02-22T16:29:09.486Z" filename="poweredbyXSLTForms.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="README.txt" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.489Z" modified="2014-02-22T16:29:09.489Z" filename="README.txt" mimetype="text/plain">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="returnasattachment.txs" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.491Z" modified="2014-02-22T16:29:09.491Z" filename="returnasattachment.txs" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="savetodisk.txs" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.494Z" modified="2014-02-22T16:29:09.494Z" filename="savetodisk.txs" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="svg2xaml.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.5Z" modified="2014-02-22T16:29:09.5Z" filename="svg2xaml.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="tab.png" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.529Z" modified="2014-02-22T16:29:09.529Z" filename="tab.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="thBackground.png" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.532Z" modified="2014-02-22T16:29:09.532Z" filename="thBackground.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="titleBackground.png" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.535Z" modified="2014-02-22T16:29:09.535Z" filename="titleBackground.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="txs.php" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.553Z" modified="2014-02-22T16:29:09.553Z" filename="txs.php" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="valid-xforms11.png" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.573Z" modified="2014-02-22T16:29:09.573Z" filename="valid-xforms11.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xsltchain.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.588Z" modified="2014-02-22T16:29:09.588Z" filename="xsltchain.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xsltforms.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.596Z" modified="2014-02-22T16:29:09.596Z" filename="xsltforms.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xsltforms.jar" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.601Z" modified="2014-02-22T16:29:09.601Z" filename="xsltforms.jar" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xsltforms.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.688Z" modified="2014-02-22T16:29:09.688Z" filename="xsltforms.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xsltforms.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.79Z" modified="2014-02-22T16:29:09.79Z" filename="xsltforms.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xsltforms_profiler.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.869Z" modified="2014-02-22T16:29:09.869Z" filename="xsltforms_profiler.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xsltforms_tracelog.xhtml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.875Z" modified="2014-02-22T16:29:09.875Z" filename="xsltforms_tracelog.xhtml" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zip_deflate.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.888Z" modified="2014-02-22T16:29:09.888Z" filename="zip_deflate.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zip_inflate.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.909Z" modified="2014-02-22T16:29:09.909Z" filename="zip_inflate.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="repo.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.921Z" modified="2014-02-22T16:29:09.921Z" filename="repo.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ball.png" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.337Z" modified="2014-02-22T16:29:09.337Z" filename="ball.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="beautify.txs" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.345Z" modified="2014-02-22T16:29:09.345Z" filename="beautify.txs" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="build.xml" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.348Z" modified="2014-02-22T16:29:09.348Z" filename="build.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.352Z" modified="2014-02-22T16:29:09.352Z" filename="config.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_cz.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.356Z" modified="2014-02-22T16:29:09.356Z" filename="config_cz.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_de.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.36Z" modified="2014-02-22T16:29:09.36Z" filename="config_de.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_el.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.363Z" modified="2014-02-22T16:29:09.363Z" filename="config_el.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_en.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.366Z" modified="2014-02-22T16:29:09.366Z" filename="config_en.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_en_us.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.369Z" modified="2014-02-22T16:29:09.369Z" filename="config_en_us.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_es.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.373Z" modified="2014-02-22T16:29:09.373Z" filename="config_es.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_fr.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.376Z" modified="2014-02-22T16:29:09.376Z" filename="config_fr.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_gl.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.38Z" modified="2014-02-22T16:29:09.38Z" filename="config_gl.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_it.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.383Z" modified="2014-02-22T16:29:09.383Z" filename="config_it.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_ja.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.387Z" modified="2014-02-22T16:29:09.387Z" filename="config_ja.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_ko.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.39Z" modified="2014-02-22T16:29:09.39Z" filename="config_ko.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_nb_no.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.394Z" modified="2014-02-22T16:29:09.394Z" filename="config_nb_no.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_nl.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.397Z" modified="2014-02-22T16:29:09.397Z" filename="config_nl.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_nn_no.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.4Z" modified="2014-02-22T16:29:09.4Z" filename="config_nn_no.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_pt.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.404Z" modified="2014-02-22T16:29:09.404Z" filename="config_pt.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_ro.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.407Z" modified="2014-02-22T16:29:09.407Z" filename="config_ro.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_ru.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.411Z" modified="2014-02-22T16:29:09.411Z" filename="config_ru.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_si.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.414Z" modified="2014-02-22T16:29:09.414Z" filename="config_si.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_sk.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.418Z" modified="2014-02-22T16:29:09.418Z" filename="config_sk.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_zh.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.423Z" modified="2014-02-22T16:29:09.423Z" filename="config_zh.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config_zh_CN.xsl" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:09.427Z" modified="2014-02-22T16:29:09.427Z" filename="config_zh_CN.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

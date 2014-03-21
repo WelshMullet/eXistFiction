@@ -1,0 +1,291 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/doc/data" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.104Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="community.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.314Z" modified="2014-02-22T16:28:46.314Z" filename="community.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-cache.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.32Z" modified="2014-02-22T16:28:46.32Z" filename="config-cache.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-compression.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.328Z" modified="2014-02-22T16:28:46.328Z" filename="config-compression.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-context.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.336Z" modified="2014-02-22T16:28:46.336Z" filename="config-context.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-counter.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.344Z" modified="2014-02-22T16:28:46.344Z" filename="config-counter.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-datetime.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.351Z" modified="2014-02-22T16:28:46.351Z" filename="config-datetime.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-example.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.358Z" modified="2014-02-22T16:28:46.358Z" filename="config-example.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-file.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.367Z" modified="2014-02-22T16:28:46.367Z" filename="config-file.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-fluent.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.374Z" modified="2014-02-22T16:28:46.374Z" filename="config-fluent.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-versioning.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.38Z" modified="2014-02-22T16:28:46.38Z" filename="config-versioning.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-xqdoc.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.389Z" modified="2014-02-22T16:28:46.389Z" filename="config-xqdoc.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="config-xslt.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.397Z" modified="2014-02-22T16:28:46.397Z" filename="config-xslt.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="configuration.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.407Z" modified="2014-02-22T16:28:46.407Z" filename="configuration.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="contentextraction.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.474Z" modified="2014-02-22T16:28:46.474Z" filename="contentextraction.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="credits.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.485Z" modified="2014-02-22T16:28:46.485Z" filename="credits.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="dashboard.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.498Z" modified="2014-02-22T16:28:46.498Z" filename="dashboard.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="debugger.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.511Z" modified="2014-02-22T16:28:46.511Z" filename="debugger.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="deployment.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.521Z" modified="2014-02-22T16:28:46.521Z" filename="deployment.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="development-starter.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.57Z" modified="2014-02-22T16:28:46.57Z" filename="development-starter.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="devguide.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.587Z" modified="2014-02-22T16:28:46.587Z" filename="devguide.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="devguide_codereview.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.593Z" modified="2014-02-22T16:28:46.593Z" filename="devguide_codereview.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="devguide_indexes.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.626Z" modified="2014-02-22T16:28:46.626Z" filename="devguide_indexes.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="devguide_log4j.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.703Z" modified="2014-02-22T16:28:46.703Z" filename="devguide_log4j.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="devguide_manifesto.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.73Z" modified="2014-02-22T16:28:46.73Z" filename="devguide_manifesto.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="devguide_rest.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.741Z" modified="2014-02-22T16:28:46.741Z" filename="devguide_rest.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="devguide_soap.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.756Z" modified="2014-02-22T16:28:46.756Z" filename="devguide_soap.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="devguide_xmldb.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.762Z" modified="2014-02-22T16:28:46.762Z" filename="devguide_xmldb.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="devguide_xmlrpc.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.774Z" modified="2014-02-22T16:28:46.774Z" filename="devguide_xmlrpc.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="disclaimer-short.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.806Z" modified="2014-02-22T16:28:46.806Z" filename="disclaimer-short.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="disclaimer.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.81Z" modified="2014-02-22T16:28:46.81Z" filename="disclaimer.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="display-collection.xq" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.814Z" modified="2014-02-22T16:28:46.814Z" filename="display-collection.xq" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="documentation.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.817Z" modified="2014-02-22T16:28:46.817Z" filename="documentation.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="extensions.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.831Z" modified="2014-02-22T16:28:46.831Z" filename="extensions.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="facts.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.866Z" modified="2014-02-22T16:28:46.866Z" filename="facts.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="faq_performance.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.871Z" modified="2014-02-22T16:28:46.871Z" filename="faq_performance.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ftlegacy.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.878Z" modified="2014-02-22T16:28:46.878Z" filename="ftlegacy.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="function_modules.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.891Z" modified="2014-02-22T16:28:46.891Z" filename="function_modules.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="getting-help-how-to-report.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.906Z" modified="2014-02-22T16:28:46.906Z" filename="getting-help-how-to-report.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="getting-help.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.912Z" modified="2014-02-22T16:28:46.912Z" filename="getting-help.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="http-request-session.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.918Z" modified="2014-02-22T16:28:46.918Z" filename="http-request-session.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="indexing.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.922Z" modified="2014-02-22T16:28:46.922Z" filename="indexing.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="java-admin-client.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.937Z" modified="2014-02-22T16:28:46.937Z" filename="java-admin-client.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="jmx.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.955Z" modified="2014-02-22T16:28:46.955Z" filename="jmx.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="kwic.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.966Z" modified="2014-02-22T16:28:46.966Z" filename="kwic.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ldap-security.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.975Z" modified="2014-02-22T16:28:46.975Z" filename="ldap-security.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="learning-xquery.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.983Z" modified="2014-02-22T16:28:46.983Z" filename="learning-xquery.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="legal.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.993Z" modified="2014-02-22T16:28:46.993Z" filename="legal.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lucene.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.999Z" modified="2014-02-22T16:28:46.999Z" filename="lucene.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="newrangeindex.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.025Z" modified="2014-02-22T16:28:47.025Z" filename="newrangeindex.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ngram.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.035Z" modified="2014-02-22T16:28:47.035Z" filename="ngram.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="oldrangeindex.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.039Z" modified="2014-02-22T16:28:47.039Z" filename="oldrangeindex.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="oxygen.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.068Z" modified="2014-02-22T16:28:47.068Z" filename="oxygen.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="production_good_practice.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.077Z" modified="2014-02-22T16:28:47.077Z" filename="production_good_practice.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="production_web_proxying.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.089Z" modified="2014-02-22T16:28:47.089Z" filename="production_web_proxying.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="quickstart.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.094Z" modified="2014-02-22T16:28:47.094Z" filename="quickstart.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="replication.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.106Z" modified="2014-02-22T16:28:47.106Z" filename="replication.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="repo.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.11Z" modified="2014-02-22T16:28:47.11Z" filename="repo.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="scheduler.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.127Z" modified="2014-02-22T16:28:47.127Z" filename="scheduler.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="security.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.141Z" modified="2014-02-22T16:28:47.141Z" filename="security.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="subversion-module.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.165Z" modified="2014-02-22T16:28:47.165Z" filename="subversion-module.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="template.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.17Z" modified="2014-02-22T16:28:47.17Z" filename="template.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="templating.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.173Z" modified="2014-02-22T16:28:47.173Z" filename="templating.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="testvars.xq" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.19Z" modified="2014-02-22T16:28:47.19Z" filename="testvars.xq" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="triggers.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.192Z" modified="2014-02-22T16:28:47.192Z" filename="triggers.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="troubleshooting.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.207Z" modified="2014-02-22T16:28:47.207Z" filename="troubleshooting.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tuning.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.219Z" modified="2014-02-22T16:28:47.219Z" filename="tuning.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="update_ext.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.243Z" modified="2014-02-22T16:28:47.243Z" filename="update_ext.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="upgrading.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.253Z" modified="2014-02-22T16:28:47.253Z" filename="upgrading.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="uploading-files.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.262Z" modified="2014-02-22T16:28:47.262Z" filename="uploading-files.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="urlrewrite.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.269Z" modified="2014-02-22T16:28:47.269Z" filename="urlrewrite.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="using-collections.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.291Z" modified="2014-02-22T16:28:47.291Z" filename="using-collections.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="util.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.298Z" modified="2014-02-22T16:28:47.298Z" filename="util.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="validation.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.303Z" modified="2014-02-22T16:28:47.303Z" filename="validation.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="versioning.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.32Z" modified="2014-02-22T16:28:47.32Z" filename="versioning.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="videos.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.33Z" modified="2014-02-22T16:28:47.33Z" filename="videos.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="webdav.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.336Z" modified="2014-02-22T16:28:47.336Z" filename="webdav.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xacml-dev.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.347Z" modified="2014-02-22T16:28:47.347Z" filename="xacml-dev.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xacml-features.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.352Z" modified="2014-02-22T16:28:47.352Z" filename="xacml-features.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xacml-intro.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.361Z" modified="2014-02-22T16:28:47.361Z" filename="xacml-intro.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xacml-usage.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.374Z" modified="2014-02-22T16:28:47.374Z" filename="xacml-usage.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xacml.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.382Z" modified="2014-02-22T16:28:47.382Z" filename="xacml.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xforms.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.386Z" modified="2014-02-22T16:28:47.386Z" filename="xforms.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xinclude.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.399Z" modified="2014-02-22T16:28:47.399Z" filename="xinclude.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xmldb.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.411Z" modified="2014-02-22T16:28:47.411Z" filename="xmldb.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xmlprague06.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.418Z" modified="2014-02-22T16:28:47.418Z" filename="xmlprague06.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xqdoc.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.431Z" modified="2014-02-22T16:28:47.431Z" filename="xqdoc.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xqsuite.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.441Z" modified="2014-02-22T16:28:47.441Z" filename="xqsuite.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xquery.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.452Z" modified="2014-02-22T16:28:47.452Z" filename="xquery.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xsl-transform.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:47.493Z" modified="2014-02-22T16:28:47.493Z" filename="xsl-transform.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="acknowledge.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.108Z" modified="2014-02-22T16:28:46.108Z" filename="acknowledge.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="advanced-installation.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.118Z" modified="2014-02-22T16:28:46.118Z" filename="advanced-installation.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ant-tasks.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.135Z" modified="2014-02-22T16:28:46.135Z" filename="ant-tasks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="atompub.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.176Z" modified="2014-02-22T16:28:46.176Z" filename="atompub.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="backup.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.202Z" modified="2014-02-22T16:28:46.202Z" filename="backup.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="beginners-guide-to-xrx-v4.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.234Z" modified="2014-02-22T16:28:46.234Z" filename="beginners-guide-to-xrx-v4.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="building.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:46.292Z" modified="2014-02-22T16:28:46.292Z" filename="building.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

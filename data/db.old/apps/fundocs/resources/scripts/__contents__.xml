@@ -1,0 +1,9 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/fundocs/resources/scripts" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.906Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="bootstrap.min.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:07.923Z" modified="2014-02-22T16:29:07.923Z" filename="bootstrap.min.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="query.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:07.94Z" modified="2014-02-22T16:29:07.94Z" filename="query.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

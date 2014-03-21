@@ -1,0 +1,517 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/shared-resources/resources/scripts/ace" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.238Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="mode-velocity.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.62Z" modified="2014-02-22T16:28:22.62Z" filename="mode-velocity.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-verilog.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.659Z" modified="2014-02-22T16:28:22.659Z" filename="mode-verilog.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-vhdl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.818Z" modified="2014-02-22T16:28:22.818Z" filename="mode-vhdl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-xml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.829Z" modified="2014-02-22T16:28:22.829Z" filename="mode-xml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-xquery.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.84Z" modified="2014-02-22T16:28:22.84Z" filename="mode-xquery.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-yaml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.868Z" modified="2014-02-22T16:28:22.868Z" filename="mode-yaml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-ambiance.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.877Z" modified="2014-02-22T16:28:22.877Z" filename="theme-ambiance.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-chaos.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.886Z" modified="2014-02-22T16:28:22.886Z" filename="theme-chaos.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-chrome.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.889Z" modified="2014-02-22T16:28:22.889Z" filename="theme-chrome.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-clouds.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.892Z" modified="2014-02-22T16:28:22.892Z" filename="theme-clouds.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-clouds_midnight.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.896Z" modified="2014-02-22T16:28:22.896Z" filename="theme-clouds_midnight.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-cobalt.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.9Z" modified="2014-02-22T16:28:22.9Z" filename="theme-cobalt.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-crimson_editor.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.903Z" modified="2014-02-22T16:28:22.903Z" filename="theme-crimson_editor.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-dawn.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.906Z" modified="2014-02-22T16:28:22.906Z" filename="theme-dawn.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-dreamweaver.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.91Z" modified="2014-02-22T16:28:22.91Z" filename="theme-dreamweaver.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-eclipse.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.913Z" modified="2014-02-22T16:28:22.913Z" filename="theme-eclipse.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-github.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.917Z" modified="2014-02-22T16:28:22.917Z" filename="theme-github.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-idle_fingers.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.92Z" modified="2014-02-22T16:28:22.92Z" filename="theme-idle_fingers.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-katzenmilch.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.923Z" modified="2014-02-22T16:28:22.923Z" filename="theme-katzenmilch.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-kr.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.926Z" modified="2014-02-22T16:28:22.926Z" filename="theme-kr.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-kuroir.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.931Z" modified="2014-02-22T16:28:22.931Z" filename="theme-kuroir.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-merbivore.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.935Z" modified="2014-02-22T16:28:22.935Z" filename="theme-merbivore.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-merbivore_soft.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.94Z" modified="2014-02-22T16:28:22.94Z" filename="theme-merbivore_soft.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-monokai.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.944Z" modified="2014-02-22T16:28:22.944Z" filename="theme-monokai.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-mono_industrial.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.947Z" modified="2014-02-22T16:28:22.947Z" filename="theme-mono_industrial.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-pastel_on_dark.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.95Z" modified="2014-02-22T16:28:22.95Z" filename="theme-pastel_on_dark.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-solarized_dark.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.954Z" modified="2014-02-22T16:28:22.954Z" filename="theme-solarized_dark.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-solarized_light.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.957Z" modified="2014-02-22T16:28:22.957Z" filename="theme-solarized_light.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-terminal.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.96Z" modified="2014-02-22T16:28:22.96Z" filename="theme-terminal.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-textmate.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.963Z" modified="2014-02-22T16:28:22.963Z" filename="theme-textmate.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-tomorrow.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.967Z" modified="2014-02-22T16:28:22.967Z" filename="theme-tomorrow.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-tomorrow_night.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.973Z" modified="2014-02-22T16:28:22.973Z" filename="theme-tomorrow_night.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-tomorrow_night_blue.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.976Z" modified="2014-02-22T16:28:22.976Z" filename="theme-tomorrow_night_blue.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-tomorrow_night_bright.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.979Z" modified="2014-02-22T16:28:22.979Z" filename="theme-tomorrow_night_bright.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-tomorrow_night_eighties.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.983Z" modified="2014-02-22T16:28:22.983Z" filename="theme-tomorrow_night_eighties.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-twilight.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.986Z" modified="2014-02-22T16:28:22.986Z" filename="theme-twilight.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-vibrant_ink.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.989Z" modified="2014-02-22T16:28:22.989Z" filename="theme-vibrant_ink.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="theme-xcode.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.992Z" modified="2014-02-22T16:28:22.992Z" filename="theme-xcode.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="worker-coffee.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.996Z" modified="2014-02-22T16:28:22.996Z" filename="worker-coffee.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="worker-css.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.03Z" modified="2014-02-22T16:28:23.03Z" filename="worker-css.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="worker-javascript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.074Z" modified="2014-02-22T16:28:23.074Z" filename="worker-javascript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="worker-json.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.123Z" modified="2014-02-22T16:28:23.123Z" filename="worker-json.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="worker-lua.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.142Z" modified="2014-02-22T16:28:23.142Z" filename="worker-lua.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="worker-php.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.166Z" modified="2014-02-22T16:28:23.166Z" filename="worker-php.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="worker-xquery.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.2Z" modified="2014-02-22T16:28:23.2Z" filename="worker-xquery.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ace.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.242Z" modified="2014-02-22T16:28:21.242Z" filename="ace.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="demo.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.378Z" modified="2014-02-22T16:28:21.378Z" filename="demo.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="emmet.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.412Z" modified="2014-02-22T16:28:21.412Z" filename="emmet.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-chromevox.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.485Z" modified="2014-02-22T16:28:21.485Z" filename="ext-chromevox.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-elastic_tabstops_lite.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.496Z" modified="2014-02-22T16:28:21.496Z" filename="ext-elastic_tabstops_lite.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-emmet.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.51Z" modified="2014-02-22T16:28:21.51Z" filename="ext-emmet.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-error_marker.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.523Z" modified="2014-02-22T16:28:21.523Z" filename="ext-error_marker.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-keybinding_menu.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.525Z" modified="2014-02-22T16:28:21.525Z" filename="ext-keybinding_menu.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-language_tools.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.566Z" modified="2014-02-22T16:28:21.566Z" filename="ext-language_tools.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-modelist.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.581Z" modified="2014-02-22T16:28:21.581Z" filename="ext-modelist.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-old_ie.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.585Z" modified="2014-02-22T16:28:21.585Z" filename="ext-old_ie.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-options.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.594Z" modified="2014-02-22T16:28:21.594Z" filename="ext-options.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-searchbox.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.602Z" modified="2014-02-22T16:28:21.602Z" filename="ext-searchbox.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-settings_menu.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.612Z" modified="2014-02-22T16:28:21.612Z" filename="ext-settings_menu.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-spellcheck.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.629Z" modified="2014-02-22T16:28:21.629Z" filename="ext-spellcheck.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-split.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.632Z" modified="2014-02-22T16:28:21.632Z" filename="ext-split.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-static_highlight.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.636Z" modified="2014-02-22T16:28:21.636Z" filename="ext-static_highlight.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-statusbar.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.64Z" modified="2014-02-22T16:28:21.64Z" filename="ext-statusbar.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-textarea.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.643Z" modified="2014-02-22T16:28:21.643Z" filename="ext-textarea.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-themelist.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.647Z" modified="2014-02-22T16:28:21.647Z" filename="ext-themelist.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ext-whitespace.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.651Z" modified="2014-02-22T16:28:21.651Z" filename="ext-whitespace.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="keybinding-emacs.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.654Z" modified="2014-02-22T16:28:21.654Z" filename="keybinding-emacs.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="keybinding-vim.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.665Z" modified="2014-02-22T16:28:21.665Z" filename="keybinding-vim.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-abap.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.679Z" modified="2014-02-22T16:28:21.679Z" filename="mode-abap.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-actionscript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.683Z" modified="2014-02-22T16:28:21.683Z" filename="mode-actionscript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-ada.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.692Z" modified="2014-02-22T16:28:21.692Z" filename="mode-ada.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-apache_conf.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.696Z" modified="2014-02-22T16:28:21.696Z" filename="mode-apache_conf.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-asciidoc.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.704Z" modified="2014-02-22T16:28:21.704Z" filename="mode-asciidoc.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-assembly_x86.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.707Z" modified="2014-02-22T16:28:21.707Z" filename="mode-assembly_x86.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-autohotkey.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.714Z" modified="2014-02-22T16:28:21.714Z" filename="mode-autohotkey.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-batchfile.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.727Z" modified="2014-02-22T16:28:21.727Z" filename="mode-batchfile.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-c9search.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.731Z" modified="2014-02-22T16:28:21.731Z" filename="mode-c9search.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-clojure.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.735Z" modified="2014-02-22T16:28:21.735Z" filename="mode-clojure.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-cobol.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.739Z" modified="2014-02-22T16:28:21.739Z" filename="mode-cobol.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-coffee.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.742Z" modified="2014-02-22T16:28:21.742Z" filename="mode-coffee.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-coldfusion.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.746Z" modified="2014-02-22T16:28:21.746Z" filename="mode-coldfusion.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-csharp.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.763Z" modified="2014-02-22T16:28:21.763Z" filename="mode-csharp.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-css.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.774Z" modified="2014-02-22T16:28:21.774Z" filename="mode-css.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-curly.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.784Z" modified="2014-02-22T16:28:21.784Z" filename="mode-curly.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-c_cpp.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.803Z" modified="2014-02-22T16:28:21.803Z" filename="mode-c_cpp.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-d.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.814Z" modified="2014-02-22T16:28:21.814Z" filename="mode-d.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-dart.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.817Z" modified="2014-02-22T16:28:21.817Z" filename="mode-dart.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-diff.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.828Z" modified="2014-02-22T16:28:21.828Z" filename="mode-diff.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-django.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.831Z" modified="2014-02-22T16:28:21.831Z" filename="mode-django.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-dot.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.851Z" modified="2014-02-22T16:28:21.851Z" filename="mode-dot.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-ejs.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.859Z" modified="2014-02-22T16:28:21.859Z" filename="mode-ejs.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-erlang.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.879Z" modified="2014-02-22T16:28:21.879Z" filename="mode-erlang.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-forth.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.89Z" modified="2014-02-22T16:28:21.89Z" filename="mode-forth.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-ftl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.905Z" modified="2014-02-22T16:28:21.905Z" filename="mode-ftl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-glsl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.917Z" modified="2014-02-22T16:28:21.917Z" filename="mode-glsl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-golang.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.928Z" modified="2014-02-22T16:28:21.928Z" filename="mode-golang.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-groovy.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.938Z" modified="2014-02-22T16:28:21.938Z" filename="mode-groovy.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-haml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.951Z" modified="2014-02-22T16:28:21.951Z" filename="mode-haml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-handlebars.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.958Z" modified="2014-02-22T16:28:21.958Z" filename="mode-handlebars.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-haskell.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.977Z" modified="2014-02-22T16:28:21.977Z" filename="mode-haskell.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-haxe.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.985Z" modified="2014-02-22T16:28:21.985Z" filename="mode-haxe.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-html.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:21.995Z" modified="2014-02-22T16:28:21.995Z" filename="mode-html.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-html_completions.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.014Z" modified="2014-02-22T16:28:22.014Z" filename="mode-html_completions.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-html_ruby.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.018Z" modified="2014-02-22T16:28:22.018Z" filename="mode-html_ruby.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-ini.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.038Z" modified="2014-02-22T16:28:22.038Z" filename="mode-ini.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-jack.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.042Z" modified="2014-02-22T16:28:22.042Z" filename="mode-jack.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-jade.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.05Z" modified="2014-02-22T16:28:22.05Z" filename="mode-jade.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-java.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.066Z" modified="2014-02-22T16:28:22.066Z" filename="mode-java.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-javascript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.078Z" modified="2014-02-22T16:28:22.078Z" filename="mode-javascript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-json.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.091Z" modified="2014-02-22T16:28:22.091Z" filename="mode-json.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-jsoniq.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.099Z" modified="2014-02-22T16:28:22.099Z" filename="mode-jsoniq.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-jsp.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.127Z" modified="2014-02-22T16:28:22.127Z" filename="mode-jsp.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-jsx.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.142Z" modified="2014-02-22T16:28:22.142Z" filename="mode-jsx.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-julia.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.152Z" modified="2014-02-22T16:28:22.152Z" filename="mode-julia.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-latex.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.155Z" modified="2014-02-22T16:28:22.155Z" filename="mode-latex.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-less.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.159Z" modified="2014-02-22T16:28:22.159Z" filename="mode-less.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-liquid.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.169Z" modified="2014-02-22T16:28:22.169Z" filename="mode-liquid.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-lisp.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.182Z" modified="2014-02-22T16:28:22.182Z" filename="mode-lisp.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-livescript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.186Z" modified="2014-02-22T16:28:22.186Z" filename="mode-livescript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-logiql.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.189Z" modified="2014-02-22T16:28:22.189Z" filename="mode-logiql.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-lsl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.199Z" modified="2014-02-22T16:28:22.199Z" filename="mode-lsl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-lua.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.21Z" modified="2014-02-22T16:28:22.21Z" filename="mode-lua.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-luapage.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.213Z" modified="2014-02-22T16:28:22.213Z" filename="mode-luapage.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-lucene.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.234Z" modified="2014-02-22T16:28:22.234Z" filename="mode-lucene.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-makefile.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.237Z" modified="2014-02-22T16:28:22.237Z" filename="mode-makefile.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-markdown.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.241Z" modified="2014-02-22T16:28:22.241Z" filename="mode-markdown.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-matlab.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.261Z" modified="2014-02-22T16:28:22.261Z" filename="mode-matlab.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-mel.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.267Z" modified="2014-02-22T16:28:22.267Z" filename="mode-mel.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-mushcode.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.278Z" modified="2014-02-22T16:28:22.278Z" filename="mode-mushcode.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-mushcode_high_rules.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.285Z" modified="2014-02-22T16:28:22.285Z" filename="mode-mushcode_high_rules.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-mysql.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.288Z" modified="2014-02-22T16:28:22.288Z" filename="mode-mysql.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-nix.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.292Z" modified="2014-02-22T16:28:22.292Z" filename="mode-nix.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-objectivec.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.302Z" modified="2014-02-22T16:28:22.302Z" filename="mode-objectivec.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-ocaml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.316Z" modified="2014-02-22T16:28:22.316Z" filename="mode-ocaml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-pascal.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.324Z" modified="2014-02-22T16:28:22.324Z" filename="mode-pascal.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-perl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.327Z" modified="2014-02-22T16:28:22.327Z" filename="mode-perl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-pgsql.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.331Z" modified="2014-02-22T16:28:22.331Z" filename="mode-pgsql.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-php.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.338Z" modified="2014-02-22T16:28:22.338Z" filename="mode-php.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-plain_text.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.364Z" modified="2014-02-22T16:28:22.364Z" filename="mode-plain_text.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-powershell.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.367Z" modified="2014-02-22T16:28:22.367Z" filename="mode-powershell.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-prolog.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.377Z" modified="2014-02-22T16:28:22.377Z" filename="mode-prolog.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-properties.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.382Z" modified="2014-02-22T16:28:22.382Z" filename="mode-properties.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-protobuf.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.385Z" modified="2014-02-22T16:28:22.385Z" filename="mode-protobuf.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-python.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.396Z" modified="2014-02-22T16:28:22.396Z" filename="mode-python.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-r.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.4Z" modified="2014-02-22T16:28:22.4Z" filename="mode-r.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-rdoc.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.405Z" modified="2014-02-22T16:28:22.405Z" filename="mode-rdoc.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-rhtml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.408Z" modified="2014-02-22T16:28:22.408Z" filename="mode-rhtml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-ruby.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.43Z" modified="2014-02-22T16:28:22.43Z" filename="mode-ruby.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-rust.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.438Z" modified="2014-02-22T16:28:22.438Z" filename="mode-rust.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-sass.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.442Z" modified="2014-02-22T16:28:22.442Z" filename="mode-sass.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-scad.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.45Z" modified="2014-02-22T16:28:22.45Z" filename="mode-scad.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-scala.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.46Z" modified="2014-02-22T16:28:22.46Z" filename="mode-scala.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-scheme.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.472Z" modified="2014-02-22T16:28:22.472Z" filename="mode-scheme.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-scss.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.476Z" modified="2014-02-22T16:28:22.476Z" filename="mode-scss.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-sh.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.487Z" modified="2014-02-22T16:28:22.487Z" filename="mode-sh.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-sjs.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.49Z" modified="2014-02-22T16:28:22.49Z" filename="mode-sjs.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-snippets.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.503Z" modified="2014-02-22T16:28:22.503Z" filename="mode-snippets.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-soy_template.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.507Z" modified="2014-02-22T16:28:22.507Z" filename="mode-soy_template.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-space.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.527Z" modified="2014-02-22T16:28:22.527Z" filename="mode-space.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-sql.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.533Z" modified="2014-02-22T16:28:22.533Z" filename="mode-sql.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-stylus.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.536Z" modified="2014-02-22T16:28:22.536Z" filename="mode-stylus.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-svg.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.544Z" modified="2014-02-22T16:28:22.544Z" filename="mode-svg.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-tcl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.559Z" modified="2014-02-22T16:28:22.559Z" filename="mode-tcl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-tex.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.563Z" modified="2014-02-22T16:28:22.563Z" filename="mode-tex.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-text.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.566Z" modified="2014-02-22T16:28:22.566Z" filename="mode-text.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-textile.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.569Z" modified="2014-02-22T16:28:22.569Z" filename="mode-textile.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-tmsnippet.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.575Z" modified="2014-02-22T16:28:22.575Z" filename="mode-tmsnippet.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-toml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.582Z" modified="2014-02-22T16:28:22.582Z" filename="mode-toml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-twig.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.585Z" modified="2014-02-22T16:28:22.585Z" filename="mode-twig.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-typescript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.603Z" modified="2014-02-22T16:28:22.603Z" filename="mode-typescript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-vbscript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:22.616Z" modified="2014-02-22T16:28:22.616Z" filename="mode-vbscript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="snippets" filename="snippets"/>
+</collection>

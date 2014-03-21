@@ -1,0 +1,327 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/shared-resources/resources/scripts/ace/snippets" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.277Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="abap.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.281Z" modified="2014-02-22T16:28:23.281Z" filename="abap.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="actionscript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.301Z" modified="2014-02-22T16:28:23.301Z" filename="actionscript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ada.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.305Z" modified="2014-02-22T16:28:23.305Z" filename="ada.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="apache_conf.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.309Z" modified="2014-02-22T16:28:23.309Z" filename="apache_conf.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="asciidoc.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.32Z" modified="2014-02-22T16:28:23.32Z" filename="asciidoc.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="assembly_x86.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.346Z" modified="2014-02-22T16:28:23.346Z" filename="assembly_x86.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="autohotkey.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.35Z" modified="2014-02-22T16:28:23.35Z" filename="autohotkey.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="batchfile.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.353Z" modified="2014-02-22T16:28:23.353Z" filename="batchfile.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="c9search.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.378Z" modified="2014-02-22T16:28:23.378Z" filename="c9search.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="clojure.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.382Z" modified="2014-02-22T16:28:23.382Z" filename="clojure.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="cobol.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.385Z" modified="2014-02-22T16:28:23.385Z" filename="cobol.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="coffee.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.388Z" modified="2014-02-22T16:28:23.388Z" filename="coffee.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="coldfusion.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.419Z" modified="2014-02-22T16:28:23.419Z" filename="coldfusion.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="csharp.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.422Z" modified="2014-02-22T16:28:23.422Z" filename="csharp.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="css.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.425Z" modified="2014-02-22T16:28:23.425Z" filename="css.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="curly.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.431Z" modified="2014-02-22T16:28:23.431Z" filename="curly.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="c_cpp.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.461Z" modified="2014-02-22T16:28:23.461Z" filename="c_cpp.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="d.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.465Z" modified="2014-02-22T16:28:23.465Z" filename="d.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="dart.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.469Z" modified="2014-02-22T16:28:23.469Z" filename="dart.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="diff.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.473Z" modified="2014-02-22T16:28:23.473Z" filename="diff.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="django.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.483Z" modified="2014-02-22T16:28:23.483Z" filename="django.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="dot.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.488Z" modified="2014-02-22T16:28:23.488Z" filename="dot.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ejs.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.493Z" modified="2014-02-22T16:28:23.493Z" filename="ejs.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="erlang.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.496Z" modified="2014-02-22T16:28:23.496Z" filename="erlang.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="forth.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.507Z" modified="2014-02-22T16:28:23.507Z" filename="forth.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ftl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.51Z" modified="2014-02-22T16:28:23.51Z" filename="ftl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="glsl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.515Z" modified="2014-02-22T16:28:23.515Z" filename="glsl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="golang.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.518Z" modified="2014-02-22T16:28:23.518Z" filename="golang.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="groovy.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.531Z" modified="2014-02-22T16:28:23.531Z" filename="groovy.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="haml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.535Z" modified="2014-02-22T16:28:23.535Z" filename="haml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="handlebars.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.539Z" modified="2014-02-22T16:28:23.539Z" filename="handlebars.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="haskell.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.542Z" modified="2014-02-22T16:28:23.542Z" filename="haskell.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="haxe.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.549Z" modified="2014-02-22T16:28:23.549Z" filename="haxe.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="html.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.553Z" modified="2014-02-22T16:28:23.553Z" filename="html.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="html_completions.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.569Z" modified="2014-02-22T16:28:23.569Z" filename="html_completions.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="html_ruby.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.577Z" modified="2014-02-22T16:28:23.577Z" filename="html_ruby.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ini.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.59Z" modified="2014-02-22T16:28:23.59Z" filename="ini.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jack.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.593Z" modified="2014-02-22T16:28:23.593Z" filename="jack.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jade.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.597Z" modified="2014-02-22T16:28:23.597Z" filename="jade.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="java.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.6Z" modified="2014-02-22T16:28:23.6Z" filename="java.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="javascript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.603Z" modified="2014-02-22T16:28:23.603Z" filename="javascript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="json.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.61Z" modified="2014-02-22T16:28:23.61Z" filename="json.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jsoniq.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.613Z" modified="2014-02-22T16:28:23.613Z" filename="jsoniq.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jsp.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.618Z" modified="2014-02-22T16:28:23.618Z" filename="jsp.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jsx.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.622Z" modified="2014-02-22T16:28:23.622Z" filename="jsx.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="julia.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.625Z" modified="2014-02-22T16:28:23.625Z" filename="julia.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="latex.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.63Z" modified="2014-02-22T16:28:23.63Z" filename="latex.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="less.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.634Z" modified="2014-02-22T16:28:23.634Z" filename="less.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="liquid.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.637Z" modified="2014-02-22T16:28:23.637Z" filename="liquid.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="lisp.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.643Z" modified="2014-02-22T16:28:23.643Z" filename="lisp.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="livescript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.646Z" modified="2014-02-22T16:28:23.646Z" filename="livescript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="logiql.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.65Z" modified="2014-02-22T16:28:23.65Z" filename="logiql.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="lsl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.654Z" modified="2014-02-22T16:28:23.654Z" filename="lsl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="lua.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.66Z" modified="2014-02-22T16:28:23.66Z" filename="lua.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="luapage.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.664Z" modified="2014-02-22T16:28:23.664Z" filename="luapage.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="lucene.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.667Z" modified="2014-02-22T16:28:23.667Z" filename="lucene.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="makefile.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.672Z" modified="2014-02-22T16:28:23.672Z" filename="makefile.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="markdown.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.675Z" modified="2014-02-22T16:28:23.675Z" filename="markdown.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="matlab.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.678Z" modified="2014-02-22T16:28:23.678Z" filename="matlab.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mel.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.682Z" modified="2014-02-22T16:28:23.682Z" filename="mel.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mushcode.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.685Z" modified="2014-02-22T16:28:23.685Z" filename="mushcode.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mushcode_high_rules.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.688Z" modified="2014-02-22T16:28:23.688Z" filename="mushcode_high_rules.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mysql.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.692Z" modified="2014-02-22T16:28:23.692Z" filename="mysql.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="nix.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.699Z" modified="2014-02-22T16:28:23.699Z" filename="nix.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="objectivec.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.704Z" modified="2014-02-22T16:28:23.704Z" filename="objectivec.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ocaml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.708Z" modified="2014-02-22T16:28:23.708Z" filename="ocaml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="pascal.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.712Z" modified="2014-02-22T16:28:23.712Z" filename="pascal.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="perl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.716Z" modified="2014-02-22T16:28:23.716Z" filename="perl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="pgsql.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.721Z" modified="2014-02-22T16:28:23.721Z" filename="pgsql.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="php.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.724Z" modified="2014-02-22T16:28:23.724Z" filename="php.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="plain_text.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.728Z" modified="2014-02-22T16:28:23.728Z" filename="plain_text.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="powershell.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.732Z" modified="2014-02-22T16:28:23.732Z" filename="powershell.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="prolog.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.735Z" modified="2014-02-22T16:28:23.735Z" filename="prolog.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="properties.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.738Z" modified="2014-02-22T16:28:23.738Z" filename="properties.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="protobuf.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.742Z" modified="2014-02-22T16:28:23.742Z" filename="protobuf.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="python.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.745Z" modified="2014-02-22T16:28:23.745Z" filename="python.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="r.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.749Z" modified="2014-02-22T16:28:23.749Z" filename="r.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rdoc.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.754Z" modified="2014-02-22T16:28:23.754Z" filename="rdoc.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rhtml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.758Z" modified="2014-02-22T16:28:23.758Z" filename="rhtml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ruby.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.761Z" modified="2014-02-22T16:28:23.761Z" filename="ruby.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="rust.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.767Z" modified="2014-02-22T16:28:23.767Z" filename="rust.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="sass.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.772Z" modified="2014-02-22T16:28:23.772Z" filename="sass.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="scad.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.776Z" modified="2014-02-22T16:28:23.776Z" filename="scad.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="scala.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.78Z" modified="2014-02-22T16:28:23.78Z" filename="scala.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="scheme.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.783Z" modified="2014-02-22T16:28:23.783Z" filename="scheme.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="scss.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.787Z" modified="2014-02-22T16:28:23.787Z" filename="scss.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="sh.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.791Z" modified="2014-02-22T16:28:23.791Z" filename="sh.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="sjs.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.794Z" modified="2014-02-22T16:28:23.794Z" filename="sjs.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="snippets.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.812Z" modified="2014-02-22T16:28:23.812Z" filename="snippets.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="soy_template.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.815Z" modified="2014-02-22T16:28:23.815Z" filename="soy_template.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="space.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.819Z" modified="2014-02-22T16:28:23.819Z" filename="space.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="sql.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.823Z" modified="2014-02-22T16:28:23.823Z" filename="sql.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="stylus.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.827Z" modified="2014-02-22T16:28:23.827Z" filename="stylus.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="svg.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.831Z" modified="2014-02-22T16:28:23.831Z" filename="svg.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="tcl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.835Z" modified="2014-02-22T16:28:23.835Z" filename="tcl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="tex.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.838Z" modified="2014-02-22T16:28:23.838Z" filename="tex.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="text.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.843Z" modified="2014-02-22T16:28:23.843Z" filename="text.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="textile.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.846Z" modified="2014-02-22T16:28:23.846Z" filename="textile.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="toml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.849Z" modified="2014-02-22T16:28:23.849Z" filename="toml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="twig.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.854Z" modified="2014-02-22T16:28:23.854Z" filename="twig.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="typescript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.857Z" modified="2014-02-22T16:28:23.857Z" filename="typescript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="vbscript.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.869Z" modified="2014-02-22T16:28:23.869Z" filename="vbscript.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="velocity.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.873Z" modified="2014-02-22T16:28:23.873Z" filename="velocity.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="verilog.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.876Z" modified="2014-02-22T16:28:23.876Z" filename="verilog.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="vhdl.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.88Z" modified="2014-02-22T16:28:23.88Z" filename="vhdl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.883Z" modified="2014-02-22T16:28:23.883Z" filename="xml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xquery.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.886Z" modified="2014-02-22T16:28:23.886Z" filename="xquery.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="yaml.js" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:23.891Z" modified="2014-02-22T16:28:23.891Z" filename="yaml.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

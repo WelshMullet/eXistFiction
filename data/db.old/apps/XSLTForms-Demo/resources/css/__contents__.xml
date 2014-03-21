@@ -1,0 +1,18 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/XSLTForms-Demo/resources/css" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:11.876Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="style.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.908Z" modified="2014-02-22T16:29:11.908Z" filename="style.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="bootstrap-responsive.min.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.882Z" modified="2014-02-22T16:29:11.882Z" filename="bootstrap-responsive.min.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="bootstrap.min.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.89Z" modified="2014-02-22T16:29:11.89Z" filename="bootstrap.min.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="dropdowns.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.898Z" modified="2014-02-22T16:29:11.898Z" filename="dropdowns.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="exist.css" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.903Z" modified="2014-02-22T16:29:11.903Z" filename="exist.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

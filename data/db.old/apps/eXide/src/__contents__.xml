@@ -1,0 +1,87 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/eXide/src" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:57.663Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="snippets.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.07Z" modified="2014-02-22T16:28:58.07Z" filename="snippets.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="templates.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.074Z" modified="2014-02-22T16:28:58.074Z" filename="templates.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="util.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.083Z" modified="2014-02-22T16:28:58.083Z" filename="util.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="visitor.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.092Z" modified="2014-02-22T16:28:58.092Z" filename="visitor.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xml-helper.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.1Z" modified="2014-02-22T16:28:58.1Z" filename="xml-helper.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xquery-helper.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.134Z" modified="2014-02-22T16:28:58.134Z" filename="xquery-helper.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xquery-utils.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.153Z" modified="2014-02-22T16:28:58.153Z" filename="xquery-utils.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ace-modes.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.675Z" modified="2014-02-22T16:28:57.675Z" filename="ace-modes.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="codevalidator.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.735Z" modified="2014-02-22T16:28:57.735Z" filename="codevalidator.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="commands.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.744Z" modified="2014-02-22T16:28:57.744Z" filename="commands.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="css-helper.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.753Z" modified="2014-02-22T16:28:57.753Z" filename="css-helper.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="debuger.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.81Z" modified="2014-02-22T16:28:57.81Z" filename="debuger.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="deployment.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.821Z" modified="2014-02-22T16:28:57.821Z" filename="deployment.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="editor.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.84Z" modified="2014-02-22T16:28:57.84Z" filename="editor.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="events.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.853Z" modified="2014-02-22T16:28:57.853Z" filename="events.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="eXide.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.955Z" modified="2014-02-22T16:28:57.955Z" filename="eXide.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="find.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.975Z" modified="2014-02-22T16:28:57.975Z" filename="find.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="help.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.985Z" modified="2014-02-22T16:28:57.985Z" filename="help.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="javascript-helper.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.99Z" modified="2014-02-22T16:28:57.99Z" filename="javascript-helper.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="less-helper.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:57.996Z" modified="2014-02-22T16:28:57.996Z" filename="less-helper.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="menu.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.001Z" modified="2014-02-22T16:28:58.001Z" filename="menu.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mode-helper.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.006Z" modified="2014-02-22T16:28:58.006Z" filename="mode-helper.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="outline.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.011Z" modified="2014-02-22T16:28:58.011Z" filename="outline.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="popup.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.021Z" modified="2014-02-22T16:28:58.021Z" filename="popup.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="preferences.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.03Z" modified="2014-02-22T16:28:58.03Z" filename="preferences.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="quickfix.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.039Z" modified="2014-02-22T16:28:58.039Z" filename="quickfix.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="resources.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.054Z" modified="2014-02-22T16:28:58.054Z" filename="resources.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="snippet-helper.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:28:58.066Z" modified="2014-02-22T16:28:58.066Z" filename="snippet-helper.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

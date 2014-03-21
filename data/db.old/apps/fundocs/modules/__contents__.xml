@@ -1,0 +1,27 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/fundocs/modules" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.783Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="templates.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.811Z" modified="2014-02-22T16:29:07.811Z" filename="templates.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="view.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.815Z" modified="2014-02-22T16:29:07.815Z" filename="view.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xqdoc.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.821Z" modified="2014-02-22T16:29:07.821Z" filename="xqdoc.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="app.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.79Z" modified="2014-02-22T16:29:07.79Z" filename="app.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="config.xqm" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.796Z" modified="2014-02-22T16:29:07.796Z" filename="config.xqm" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="dbutils.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.798Z" modified="2014-02-22T16:29:07.798Z" filename="dbutils.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="reindex.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.802Z" modified="2014-02-22T16:29:07.802Z" filename="reindex.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="scan.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:07.806Z" modified="2014-02-22T16:29:07.806Z" filename="scan.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

@@ -1,0 +1,30 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/shared-resources/resources/images" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.614Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="bgmenu.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.618Z" modified="2014-02-22T16:28:20.618Z" filename="bgmenu.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="bgmenuhi.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.621Z" modified="2014-02-22T16:28:20.621Z" filename="bgmenuhi.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="body-base.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.624Z" modified="2014-02-22T16:28:20.624Z" filename="body-base.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="body.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.627Z" modified="2014-02-22T16:28:20.627Z" filename="body.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="existdb.png" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.631Z" modified="2014-02-22T16:28:20.631Z" filename="existdb.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="exist_icon_16x16.ico" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.633Z" modified="2014-02-22T16:28:20.633Z" filename="exist_icon_16x16.ico" mimetype="image/vnd.microsoft.icon">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="header.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.647Z" modified="2014-02-22T16:28:20.647Z" filename="header.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="horizontal.gif" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.649Z" modified="2014-02-22T16:28:20.649Z" filename="horizontal.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="noise.png" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:20.652Z" modified="2014-02-22T16:28:20.652Z" filename="noise.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

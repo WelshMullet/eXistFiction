@@ -1,0 +1,6 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/XSLTForms-Demo/resources/scripts" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:29:11.97Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="bootstrap.min.js" skip="no" owner="admin" group="dba" mode="664" created="2014-02-22T16:29:11.987Z" modified="2014-02-22T16:29:11.987Z" filename="bootstrap.min.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

@@ -1,0 +1,30 @@
+2014-03-15 18:30:19,545 [AWT-EventQueue-0] INFO  (StdSchedulerFactory.java [instantiate]:1157) - Using default implementation for ThreadExecutor 
+2014-03-15 18:30:19,549 [AWT-EventQueue-0] INFO  (SimpleThreadPool.java [initialize]:271) - Job execution threads will use class loader of thread: AWT-EventQueue-0 
+2014-03-15 18:30:19,577 [AWT-EventQueue-0] INFO  (SchedulerSignalerImpl.java [<init>]:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl 
+2014-03-15 18:30:19,577 [AWT-EventQueue-0] INFO  (QuartzScheduler.java [<init>]:243) - Quartz Scheduler v.2.1.6 created. 
+2014-03-15 18:30:19,579 [AWT-EventQueue-0] INFO  (RAMJobStore.java [initialize]:154) - RAMJobStore initialized. 
+2014-03-15 18:30:19,580 [AWT-EventQueue-0] INFO  (QuartzScheduler.java [initialize]:268) - Scheduler meta-data: Quartz Scheduler (v2.1.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2014-03-15 18:30:19,580 [AWT-EventQueue-0] INFO  (StdSchedulerFactory.java [instantiate]:1306) - Quartz scheduler 'DefaultQuartzScheduler' initialized from an externally provided properties instance. 
+2014-03-15 18:30:19,580 [AWT-EventQueue-0] INFO  (StdSchedulerFactory.java [instantiate]:1310) - Quartz scheduler version: 2.1.6 
+2014-03-15 19:03:17,341 [AWT-EventQueue-0] INFO  (StdSchedulerFactory.java [instantiate]:1157) - Using default implementation for ThreadExecutor 
+2014-03-15 19:03:17,345 [AWT-EventQueue-0] INFO  (SimpleThreadPool.java [initialize]:271) - Job execution threads will use class loader of thread: AWT-EventQueue-0 
+2014-03-15 19:03:17,370 [AWT-EventQueue-0] INFO  (SchedulerSignalerImpl.java [<init>]:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl 
+2014-03-15 19:03:17,370 [AWT-EventQueue-0] INFO  (QuartzScheduler.java [<init>]:243) - Quartz Scheduler v.2.1.6 created. 
+2014-03-15 19:03:17,372 [AWT-EventQueue-0] INFO  (RAMJobStore.java [initialize]:154) - RAMJobStore initialized. 
+2014-03-15 19:03:17,373 [AWT-EventQueue-0] INFO  (QuartzScheduler.java [initialize]:268) - Scheduler meta-data: Quartz Scheduler (v2.1.6) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2014-03-15 19:03:17,373 [AWT-EventQueue-0] INFO  (StdSchedulerFactory.java [instantiate]:1306) - Quartz scheduler 'DefaultQuartzScheduler' initialized from an externally provided properties instance. 
+2014-03-15 19:03:17,374 [AWT-EventQueue-0] INFO  (StdSchedulerFactory.java [instantiate]:1310) - Quartz scheduler version: 2.1.6 

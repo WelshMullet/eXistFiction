@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo"><description>Various small demo applications.</description><author>Wolfgang Meier</author><website/><status>beta</status><license>GNU-LGPL</license><copyright>true</copyright><type>application</type><target>demo</target><prepare>pre-install.xql</prepare><finish>post-install.xql</finish><deployed>2014-02-22T16:28:43.112Z</deployed></meta>

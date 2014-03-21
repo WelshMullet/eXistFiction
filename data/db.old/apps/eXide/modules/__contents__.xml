@@ -1,0 +1,81 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/eXide/modules" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.769Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="outline.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.958Z" modified="2014-02-22T16:28:55.958Z" filename="outline.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="pretty-print.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.991Z" modified="2014-02-22T16:28:55.991Z" filename="pretty-print.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="run-test.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.994Z" modified="2014-02-22T16:28:55.994Z" filename="run-test.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="search.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.997Z" modified="2014-02-22T16:28:55.997Z" filename="search.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="session.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:56.001Z" modified="2014-02-22T16:28:56.001Z" filename="session.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="store.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:56.016Z" modified="2014-02-22T16:28:56.016Z" filename="store.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="synchronize.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:56.018Z" modified="2014-02-22T16:28:56.018Z" filename="synchronize.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="tmpl.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:56.021Z" modified="2014-02-22T16:28:56.021Z" filename="tmpl.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="upload.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:56.024Z" modified="2014-02-22T16:28:56.024Z" filename="upload.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="util.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:56.026Z" modified="2014-02-22T16:28:56.026Z" filename="util.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="validate-xml.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:56.029Z" modified="2014-02-22T16:28:56.029Z" filename="validate-xml.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="view.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:56.032Z" modified="2014-02-22T16:28:56.032Z" filename="view.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="apply-config.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.774Z" modified="2014-02-22T16:28:55.774Z" filename="apply-config.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="collections.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.779Z" modified="2014-02-22T16:28:55.779Z" filename="collections.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="compile.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.783Z" modified="2014-02-22T16:28:55.783Z" filename="compile.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="config.xqm" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.786Z" modified="2014-02-22T16:28:55.786Z" filename="config.xqm" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="dates.xqm" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.788Z" modified="2014-02-22T16:28:55.788Z" filename="dates.xqm" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="debuger.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.825Z" modified="2014-02-22T16:28:55.825Z" filename="debuger.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="deployment.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.83Z" modified="2014-02-22T16:28:55.83Z" filename="deployment.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="docs.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.932Z" modified="2014-02-22T16:28:55.932Z" filename="docs.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="documentation.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.935Z" modified="2014-02-22T16:28:55.935Z" filename="documentation.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="error-handler.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.937Z" modified="2014-02-22T16:28:55.937Z" filename="error-handler.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="find.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.94Z" modified="2014-02-22T16:28:55.94Z" filename="find.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="get-template.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.949Z" modified="2014-02-22T16:28:55.949Z" filename="get-template.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="git.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.952Z" modified="2014-02-22T16:28:55.952Z" filename="git.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="load.xql" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:55.955Z" modified="2014-02-22T16:28:55.955Z" filename="load.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

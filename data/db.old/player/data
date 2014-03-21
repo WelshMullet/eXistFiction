@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player><name>"susan"</name><score>100</score><inventory><item><name>"Sword of +5 swording"</name><type>"weapon"</type><image>"sword1.png"</image></item><item><name>"Fedora"</name><type>"hat"</type><image>"fedora.png"</image></item></inventory></player>

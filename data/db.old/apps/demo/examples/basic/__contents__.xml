@@ -1,0 +1,60 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/demo/examples/basic" version="1" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.193Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="switch.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.238Z" modified="2014-02-22T16:28:40.238Z" filename="switch.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="trycatch.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.242Z" modified="2014-02-22T16:28:40.242Z" filename="trycatch.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="validation.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.245Z" modified="2014-02-22T16:28:40.245Z" filename="validation.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xq3operators.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.248Z" modified="2014-02-22T16:28:40.248Z" filename="xq3operators.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xquery3.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.25Z" modified="2014-02-22T16:28:40.25Z" filename="xquery3.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="xslt.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.253Z" modified="2014-02-22T16:28:40.253Z" filename="xslt.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="basics.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.197Z" modified="2014-02-22T16:28:40.197Z" filename="basics.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ConvertItems.xsl" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.2Z" modified="2014-02-22T16:28:40.2Z" filename="ConvertItems.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="DemoValidation-Invalid.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.203Z" modified="2014-02-22T16:28:40.203Z" filename="DemoValidation-Invalid.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="DemoValidation-Valid.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.205Z" modified="2014-02-22T16:28:40.205Z" filename="DemoValidation-Valid.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="DemoValidation.xsd" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.208Z" modified="2014-02-22T16:28:40.208Z" filename="DemoValidation.xsd" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="fulltext.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.211Z" modified="2014-02-22T16:28:40.211Z" filename="fulltext.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="functions.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.214Z" modified="2014-02-22T16:28:40.214Z" filename="functions.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="groupby.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.216Z" modified="2014-02-22T16:28:40.216Z" filename="groupby.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="hello.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.22Z" modified="2014-02-22T16:28:40.22Z" filename="hello.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="hof.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.222Z" modified="2014-02-22T16:28:40.222Z" filename="hof.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="htmlgenerate.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.225Z" modified="2014-02-22T16:28:40.225Z" filename="htmlgenerate.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Items.xml" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.232Z" modified="2014-02-22T16:28:40.232Z" filename="Items.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="mondial.html" skip="no" owner="admin" group="dba" mode="775" created="2014-02-22T16:28:40.235Z" modified="2014-02-22T16:28:40.235Z" filename="mondial.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

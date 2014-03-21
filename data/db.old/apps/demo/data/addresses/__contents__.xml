@@ -1,0 +1,24 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/demo/data/addresses" version="1" owner="admin" group="dba" mode="777" created="2014-02-22T16:28:40.016Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="0ff8612a-b998-4677-84a3-73e9ef84ba5f.xml" skip="no" owner="admin" group="dba" mode="777" created="2014-02-22T16:28:40.02Z" modified="2014-02-22T16:28:40.02Z" filename="0ff8612a-b998-4677-84a3-73e9ef84ba5f.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="19791b37-f546-4dc0-9bb4-ba3c36f9bb35.xml" skip="no" owner="admin" group="dba" mode="777" created="2014-02-22T16:28:40.115Z" modified="2014-02-22T16:28:40.115Z" filename="19791b37-f546-4dc0-9bb4-ba3c36f9bb35.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="2895645b-d16f-415e-a99a-a4504faaa6c2.xml" skip="no" owner="admin" group="dba" mode="777" created="2014-02-22T16:28:40.118Z" modified="2014-02-22T16:28:40.118Z" filename="2895645b-d16f-415e-a99a-a4504faaa6c2.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="49ce9014-b1b2-4d30-acd8-601349e5e1a2.xml" skip="no" owner="admin" group="dba" mode="777" created="2014-02-22T16:28:40.122Z" modified="2014-02-22T16:28:40.122Z" filename="49ce9014-b1b2-4d30-acd8-601349e5e1a2.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="75a7170b-ad64-47ac-9b54-59ad50b6c47d.xml" skip="no" owner="admin" group="dba" mode="777" created="2014-02-22T16:28:40.125Z" modified="2014-02-22T16:28:40.125Z" filename="75a7170b-ad64-47ac-9b54-59ad50b6c47d.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="7db9a6b3-6f06-4205-b4de-4f906ec9fd94.xml" skip="no" owner="admin" group="dba" mode="777" created="2014-02-22T16:28:40.137Z" modified="2014-02-22T16:28:40.137Z" filename="7db9a6b3-6f06-4205-b4de-4f906ec9fd94.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="abbcc652-0665-4f9d-9df5-c2c96aaf3c51.xml" skip="no" owner="admin" group="dba" mode="777" created="2014-02-22T16:28:40.141Z" modified="2014-02-22T16:28:40.141Z" filename="abbcc652-0665-4f9d-9df5-c2c96aaf3c51.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>
