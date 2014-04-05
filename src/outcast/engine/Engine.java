@@ -53,8 +53,8 @@ public class Engine {
 			loc.getDocumentElement().normalize();
 			
 			//manager.getResource("xmldb:exist:///db/player/", "data");
-			@SuppressWarnings("unused")
-			GUI gui = new GUI();
+
+
 		}
 		return instance;
 	}
@@ -63,7 +63,7 @@ public class Engine {
 		setLocation(manager.getResource("db/locations/", locName));
 	}
 
-	public void parseInput(String string) {
+	public String parseInput(String string) {
 		String[] in = string.split(" ");
 		
 		switch(in[0].toLowerCase()){
@@ -72,6 +72,21 @@ public class Engine {
 			break;
 		case "go" :
 			//Switch on in[0] vs possible choices
+			NodeList list =getLoc().getElementsByTagName("links");
+			switch(in[1].toLowerCase()){
+			case "north" :
+				String location = list.item(0).getFirstChild().getNodeValue();
+				if(location != null){
+					moveTo(location);
+					
+					list =getLoc().getElementsByTagName("description");
+					return (list.item(0).getFirstChild().getNodeValue() + "\n");
+				}
+				else{
+					return "You cannot go north \n";
+				}
+				
+			}
 			break;
 		case "pick":
 			if (in[1] != "up"){
@@ -80,9 +95,10 @@ public class Engine {
 		case "take":
 			//Switch on in[0] vs possible choices
 			break;
-			
-		
+		default :
+			return ("I do not understand " + string);
 		}
+		return ("I do not understand " + string);
 	}
 
 	public static Resource getLocation() {

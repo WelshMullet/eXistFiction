@@ -38,15 +38,17 @@ import javax.swing.AbstractListModel;
 import javax.swing.ListSelectionModel;
 import java.awt.Font;
 import java.awt.BorderLayout;
+import javax.swing.DropMode;
+import javax.swing.JTextArea;
 
 public class GUI {
 
 	private JFrame frame;
-	private JTextField output;
 	private ExistManager manager = null;
 	private Engine engine = null;
 	private JTextField input;
 	private JLabel image;
+	private JTextArea output;
 
 
 	/**
@@ -55,6 +57,7 @@ public class GUI {
 	public GUI() {
 		initialize();
 		frame.setVisible(true);
+		update();
 	}
 	
 
@@ -68,20 +71,16 @@ public class GUI {
 		
 		frame = new JFrame();
 		frame.setMaximumSize(new Dimension(1280, 720));
-		frame.setBounds(100, 100, 823, 640);
+		frame.setBounds(100, 100, 1280, 720);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		image = new JLabel();
-
-		
-		output = new JTextField();
-		output.setEditable(false);
-		output.setColumns(10);
-		output.setText("\r\n<dynamic>");
 		
 		JButton btnEnter = new JButton("enter");
 		btnEnter.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				output.append(engine.parseInput(input.getText()));
+				input.setText("");
 			}
 		});
 		
@@ -91,7 +90,7 @@ public class GUI {
 			public void keyPressed(KeyEvent arg0) {
 				if(arg0.getKeyCode() == KeyEvent.VK_ENTER){
 					String text =input.getText();
-					engine.parseInput(text);
+					output.append(engine.parseInput(text));
 					input.setText("");
 				}
 			}
@@ -101,16 +100,20 @@ public class GUI {
 		JPanel panel = new JPanel();
 		
 		JPanel panel_1 = new JPanel();
+		
+		output = new JTextArea();
+		output.setWrapStyleWord(true);
+		output.setEditable(false);
 		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.TRAILING)
 				.addGroup(groupLayout.createSequentialGroup()
 					.addContainerGap()
 					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-						.addComponent(image, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-						.addComponent(output, GroupLayout.DEFAULT_SIZE, 579, Short.MAX_VALUE)
+						.addComponent(output, GroupLayout.DEFAULT_SIZE, 1048, Short.MAX_VALUE)
+						.addComponent(image, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 1036, Short.MAX_VALUE)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addComponent(input, GroupLayout.DEFAULT_SIZE, 514, Short.MAX_VALUE)
+							.addComponent(input, GroupLayout.DEFAULT_SIZE, 971, Short.MAX_VALUE)
 							.addPreferredGap(ComponentPlacement.RELATED)
 							.addComponent(btnEnter)))
 					.addGap(18)
@@ -120,21 +123,21 @@ public class GUI {
 					.addContainerGap())
 		);
 		groupLayout.setVerticalGroup(
-			groupLayout.createParallelGroup(Alignment.TRAILING)
-				.addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+			groupLayout.createParallelGroup(Alignment.LEADING)
+				.addGroup(groupLayout.createSequentialGroup()
 					.addContainerGap()
 					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
 						.addComponent(panel, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 						.addComponent(image, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 410, Short.MAX_VALUE))
 					.addPreferredGap(ComponentPlacement.UNRELATED)
-					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addComponent(output, GroupLayout.DEFAULT_SIZE, 125, Short.MAX_VALUE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
+							.addComponent(output, GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
+							.addPreferredGap(ComponentPlacement.RELATED)
 							.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
 								.addComponent(input, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 								.addComponent(btnEnter)))
-						.addComponent(panel_1, GroupLayout.DEFAULT_SIZE, 159, Short.MAX_VALUE))
+						.addComponent(panel_1, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 239, Short.MAX_VALUE))
 					.addContainerGap())
 		);
 		panel.setLayout(new BorderLayout(0, 0));
@@ -144,7 +147,7 @@ public class GUI {
 		inventoryList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		inventoryList.setVisibleRowCount(20);
 		inventoryList.setModel(new AbstractListModel() {
-			String[] values = new String[] {"", "", "", "", "", "", "", ""};
+			String[] values = new String[] {""};
 			public int getSize() {
 				return values.length;
 			}
@@ -190,9 +193,10 @@ public class GUI {
 		frame.getContentPane().setLayout(groupLayout);
 	}
 	
-	public void Update(){
+	public void update(){
 		
 		//Background
+		/*
 		BufferedImage wPic = null;
 		NodeList list =engine.getLoc().getElementsByTagName("background");
 		String background = list.item(0).getFirstChild().getNodeValue();
@@ -207,6 +211,13 @@ public class GUI {
 			e.printStackTrace();
 		}
 		image.setIcon(new ImageIcon(wPic) );
+		*/
+		
+		//Main text
+		NodeList list =engine.getLoc().getElementsByTagName("description");
+		String description = list.item(0).getFirstChild().getNodeValue();
+		output.append(description + "\n");
+		
 		
 		
 		
