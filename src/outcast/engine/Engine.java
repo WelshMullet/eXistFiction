@@ -73,17 +73,68 @@ public class Engine {
 		case "go" :
 			//Switch on in[0] vs possible choices
 			NodeList list =getLoc().getElementsByTagName("links");
+			String location;
 			switch(in[1].toLowerCase()){
 			case "north" :
-				String location = list.item(0).getFirstChild().getNodeValue();
+				location = list.item(0).getNodeValue();
 				if(location != null){
 					moveTo(location);
-					
 					list =getLoc().getElementsByTagName("description");
 					return (list.item(0).getFirstChild().getNodeValue() + "\n");
 				}
 				else{
 					return "You cannot go north \n";
+				}
+			
+			case "south" :
+				location = list.item(1).getNodeValue();
+				if(location != null){
+					moveTo(location);
+					list =getLoc().getElementsByTagName("description");
+					return (list.item(0).getFirstChild().getNodeValue() + "\n");
+				}
+				else{
+					return "You cannot go south \n";
+				}
+			case "east" :
+				location = list.item(2).getNodeValue();
+				if(location != null){
+					moveTo(location);
+					list =getLoc().getElementsByTagName("description");
+					return (list.item(0).getFirstChild().getNodeValue() + "\n");
+				}
+				else{
+					return "You cannot go east \n";
+				}
+			case "west" :
+				location = list.item(3).getNodeValue();
+				if(location != null){
+					moveTo(location);
+					list =getLoc().getElementsByTagName("description");
+					return (list.item(0).getFirstChild().getNodeValue() + "\n");
+				}
+				else{
+					return "You cannot go west \n";
+				}
+			case "up" :
+				location = list.item(4).getNodeValue();
+				if(location != null){
+					moveTo(location);
+					list =getLoc().getElementsByTagName("description");
+					return (list.item(0).getFirstChild().getNodeValue() + "\n");
+				}
+				else{
+					return "You cannot go up \n";
+				}
+			case "down" :
+				location = list.item(5).getNodeValue();
+				if(location != null){
+					moveTo(location);
+					list =getLoc().getElementsByTagName("description");
+					return (list.item(0).getFirstChild().getNodeValue() + "\n");
+				}
+				else{
+					return "You cannot go down \n";
 				}
 				
 			}
