@@ -64,6 +64,7 @@ public class GUI {
 	private JTextField input;
 	private JLabel image;
 	private DefaultListModel output = new DefaultListModel();
+	private DefaultListModel inventory = new DefaultListModel();
 
 
 	/**
@@ -159,7 +160,7 @@ public class GUI {
 		);
 		panel.setLayout(new BorderLayout(0, 0));
 		
-		JList inventoryList = new JList();
+		JList inventoryList = new JList(inventory);
 		inventoryList.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		inventoryList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		inventoryList.setVisibleRowCount(20);
@@ -270,6 +271,14 @@ public class GUI {
 		String description = list.item(0).getFirstChild().getNodeValue();
 		output.append(description + "\n");*/
 		
+		//Inventory list
+		
+		/*int i = 0;
+		String[] inv = engine.getInventory();
+		inventory.clear();
+		while(i < inv.length){
+			inventory.add(i, inv[i]);
+		}*/
 		
 		
 		

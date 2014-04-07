@@ -15,6 +15,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
@@ -24,6 +25,7 @@ public class Engine {
 	private static ExistManager manager = null;
 	private static Resource location = null;
 	private static Document loc = null;
+	private static Document play = null;
 	private static Resource player = null;
 	
 	protected Engine(){
@@ -35,6 +37,7 @@ public class Engine {
 			instance = new Engine();
 			manager = ExistManager.getInstance();
 			setLocation(manager.getResource("db/locations", "start.xml"));
+			setPlayer(manager.getResource("db/player", "data.xml"));
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = null;
 			try {
@@ -46,12 +49,14 @@ public class Engine {
 			
 			try {
 				setLoc(dBuilder.parse(new InputSource(new ByteArrayInputStream(location.getContent().toString().getBytes("utf-8")))));
+				setPlay(dBuilder.parse(new InputSource(new ByteArrayInputStream(player.getContent().toString().getBytes("utf-8")))));
 			} catch (SAXException | IOException | XMLDBException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
 			loc.getDocumentElement().normalize();
+			play.getDocumentElement().normalize();
 			
 			//manager.getResource("xmldb:exist:///db/player/", "data");
 
@@ -86,16 +91,31 @@ public class Engine {
 	public String parseInput(String string) {
 		String[] in = string.split(" ");
 		String output = "I do not understand" + string + "\n";
+		NodeList list = null;
+		Node node;
 		
 		switch(in[0].toLowerCase()){
-		case "examine" : case "oggle" : 
+		case "examine" : case "oggle" : case "observe" :
 			//Switch on in[0] vs possible choices
+			if(in.length != 1){
+				switch(in[1].toLowerCase()){
+				case "room" : {
+					list =getLoc().getElementsByTagName("description");
+					output = (list.item(0).getFirstChild().getNodeValue() + "\n");
+					
+					//Output what is to the cardinal direction? Maybe add description tags to links, will require re-write of some other xml code
+					//Output what items are here
+					
+					break;
+				}
+				}
+			}
+			
 			break;
 		case "go" : case "exit" : case "proceed" :
 			//Switch on in[0] vs possible choices
 			if(in.length != 1){
-				NodeList list =getLoc().getElementsByTagName("links");
-				Node node;
+				list =getLoc().getElementsByTagName("links");
 				//NodeList links = list.item(0).getChildNodes();
 
 				Node location;
@@ -274,6 +294,9 @@ public class Engine {
 		first.getDocumentElement().normalize();
 		second.getDocumentElement().normalize();
 		
+		NodeList items = first.getElementsByTagName("inventory");
+		
+		
 		
 		
 		
@@ -314,6 +337,33 @@ public class Engine {
 		
 		return result;
 	}
+
+	public static Resource getPlayer() {
+		return player;
+	}
+
+	public static void setPlayer(Resource player) {
+		Engine.player = player;
+	}
+
+	public static Document getPlay() {
+		return play;
+	}
+
+	public static void setPlay(Document play) {
+		Engine.play = play;
+	}
 	
-	
+	public static String[] getInventory(){
+		String[] list = null;
+		
+		NodeList nodes = getPlay().getElementsByTagName("*");
+		
+		int i = 0;
+		while( i  < nodes.getLength()){
+			list[i] = nodes.item(i).getFirstChild().getNodeValue();
+		}
+		
+		return list;
+	}
 }
