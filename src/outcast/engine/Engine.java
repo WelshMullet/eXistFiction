@@ -60,11 +60,31 @@ public class Engine {
 	}
 	
 	public void moveTo(String locName){
-		setLocation(manager.getResource("db/locations/", locName));
+		setLocation(manager.getResource("db/locations", locName));
+		
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = null;
+		try {
+			dBuilder = dbFactory.newDocumentBuilder();
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		try {
+			setLoc(dBuilder.parse(new InputSource(new ByteArrayInputStream(location.getContent().toString().getBytes("utf-8")))));
+		} catch (SAXException | IOException | XMLDBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		loc.getDocumentElement().normalize();
+		
 	}
 
 	public String parseInput(String string) {
 		String[] in = string.split(" ");
+		String output = "I do not understand" + string;
 		
 		switch(in[0].toLowerCase()){
 		case "examine" :
@@ -72,72 +92,116 @@ public class Engine {
 			break;
 		case "go" :
 			//Switch on in[0] vs possible choices
-			NodeList list =getLoc().getElementsByTagName("links");
-			String location;
-			switch(in[1].toLowerCase()){
-			case "north" :
-				location = list.item(0).getNodeValue();
-				if(location != null){
-					moveTo(location);
-					list =getLoc().getElementsByTagName("description");
-					return (list.item(0).getFirstChild().getNodeValue() + "\n");
+			if(in.length != 1){
+				NodeList list =getLoc().getElementsByTagName("links");
+				Node node;
+				//NodeList links = list.item(0).getChildNodes();
+
+				Node location;
+				switch(in[1].toLowerCase()){
+				case "north" : {
+					node = getLoc().getElementsByTagName("north").item(0);
+					if(node != null){
+						location = node.getFirstChild();
+						if(location != null){
+							moveTo(location.getNodeValue());
+							list =getLoc().getElementsByTagName("description");
+							output = (list.item(0).getFirstChild().getNodeValue() + "\n");
+						}
+						else{
+							output = "You cannot go north \n";
+						}
+					}
+					break;
 				}
-				else{
-					return "You cannot go north \n";
+
+				case "south" : {
+					node = getLoc().getElementsByTagName("south").item(0);
+					if(node != null){
+						location = node.getFirstChild();
+						if(location != null){
+							moveTo(location.getNodeValue());
+							list =getLoc().getElementsByTagName("description");
+							output = (list.item(0).getFirstChild().getNodeValue() + "\n");
+						}
+						else{
+							output = "You cannot go south \n";
+						}
+					}
+					break;
 				}
-			
-			case "south" :
-				location = list.item(1).getNodeValue();
-				if(location != null){
-					moveTo(location);
-					list =getLoc().getElementsByTagName("description");
-					return (list.item(0).getFirstChild().getNodeValue() + "\n");
+				
+				case "east" : {
+					node = getLoc().getElementsByTagName("east").item(0);
+					if(node != null){
+						location = node.getFirstChild();
+						if(location != null){
+							moveTo(location.getNodeValue());
+							list =getLoc().getElementsByTagName("description");
+							output = (list.item(0).getFirstChild().getNodeValue() + "\n");
+						}
+						else{
+							output = "You cannot go east \n";
+						}
+					}
+					break;
 				}
-				else{
-					return "You cannot go south \n";
+					
+				case "west" : {
+					node = getLoc().getElementsByTagName("west").item(0);
+					if(node != null){
+						location = node.getFirstChild();
+						if(location != null){
+							moveTo(location.getNodeValue());
+							list =getLoc().getElementsByTagName("description");
+							output = (list.item(0).getFirstChild().getNodeValue() + "\n");
+						}
+						else{
+							output = "You cannot go west \n";
+						}
+					}
+					break;
 				}
-			case "east" :
-				location = list.item(2).getNodeValue();
-				if(location != null){
-					moveTo(location);
-					list =getLoc().getElementsByTagName("description");
-					return (list.item(0).getFirstChild().getNodeValue() + "\n");
+					
+				case "up" : {
+					node = getLoc().getElementsByTagName("up").item(0);
+					if(node != null){
+						location = node.getFirstChild();
+						if(location != null){
+							moveTo(location.getNodeValue());
+							list =getLoc().getElementsByTagName("description");
+							output = (list.item(0).getFirstChild().getNodeValue() + "\n");
+						}
+						else{
+							output = "You cannot go up \n";
+						}
+					}
+					break;
 				}
-				else{
-					return "You cannot go east \n";
+					
+				case "down" : {
+					node = getLoc().getElementsByTagName("down").item(0);
+					if(node != null){
+						location = node.getFirstChild();
+						if(location != null){
+							moveTo(location.getNodeValue());
+							list =getLoc().getElementsByTagName("description");
+							output = (list.item(0).getFirstChild().getNodeValue() + "\n");
+						}
+						else{
+							output = "You cannot go down \n";
+						}
+					}
+					break;
 				}
-			case "west" :
-				location = list.item(3).getNodeValue();
-				if(location != null){
-					moveTo(location);
-					list =getLoc().getElementsByTagName("description");
-					return (list.item(0).getFirstChild().getNodeValue() + "\n");
-				}
-				else{
-					return "You cannot go west \n";
-				}
-			case "up" :
-				location = list.item(4).getNodeValue();
-				if(location != null){
-					moveTo(location);
-					list =getLoc().getElementsByTagName("description");
-					return (list.item(0).getFirstChild().getNodeValue() + "\n");
-				}
-				else{
-					return "You cannot go up \n";
-				}
-			case "down" :
-				location = list.item(5).getNodeValue();
-				if(location != null){
-					moveTo(location);
-					list =getLoc().getElementsByTagName("description");
-					return (list.item(0).getFirstChild().getNodeValue() + "\n");
-				}
-				else{
-					return "You cannot go down \n";
+					
 				}
 				
 			}
+			else{
+				output = "Go where?";
+			}
+
 			break;
 		case "pick":
 			if (in[1] != "up"){
@@ -149,7 +213,7 @@ public class Engine {
 		default :
 			return ("I do not understand " + string);
 		}
-		return ("I do not understand " + string);
+		return (output);
 	}
 
 	public static Resource getLocation() {
