@@ -9,9 +9,11 @@ import javax.swing.JTextField;
 
 import java.awt.Color;
 
+import javax.swing.DefaultListModel;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JButton;
 
@@ -61,7 +63,7 @@ public class GUI {
 	private Engine engine = null;
 	private JTextField input;
 	private JLabel image;
-	private JTextArea output;
+	private DefaultListModel output = new DefaultListModel();
 
 
 	/**
@@ -92,7 +94,7 @@ public class GUI {
 		JButton btnEnter = new JButton("enter");
 		btnEnter.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				engine.parseInput(input.getText());
+				output.addElement(engine.parseInput(input.getText()));
 				input.setText("");
 				update();
 			}
@@ -103,8 +105,10 @@ public class GUI {
 			@Override
 			public void keyPressed(KeyEvent arg0) {
 				if(arg0.getKeyCode() == KeyEvent.VK_ENTER){
-					String text =input.getText();
-					engine.parseInput(text);
+					output.addElement(engine.parseInput(input.getText()));
+					if(output.getSize() > 10){
+						output.remove(0);
+					}
 					input.setText("");
 					update();
 				}
@@ -116,16 +120,14 @@ public class GUI {
 		
 		JPanel panel_1 = new JPanel();
 		
-		output = new JTextArea();
-		output.setWrapStyleWord(true);
-		output.setEditable(false);
+		JList outputList = new JList(output);
 		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.TRAILING)
 				.addGroup(groupLayout.createSequentialGroup()
 					.addContainerGap()
 					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-						.addComponent(output, GroupLayout.DEFAULT_SIZE, 1048, Short.MAX_VALUE)
+						.addComponent(outputList, GroupLayout.DEFAULT_SIZE, 1036, Short.MAX_VALUE)
 						.addComponent(image, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 1036, Short.MAX_VALUE)
 						.addGroup(groupLayout.createSequentialGroup()
 							.addComponent(input, GroupLayout.DEFAULT_SIZE, 971, Short.MAX_VALUE)
@@ -147,7 +149,7 @@ public class GUI {
 					.addPreferredGap(ComponentPlacement.UNRELATED)
 					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addComponent(output, GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
+							.addComponent(outputList, GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
 							.addPreferredGap(ComponentPlacement.RELATED)
 							.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
 								.addComponent(input, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
@@ -204,8 +206,24 @@ public class GUI {
 		panel_1.add(btnLoad, "2, 6, 3, 1");
 		
 		JButton btnHelp = new JButton("Help");
+		btnHelp.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				String help = engine.getHelp();
+				if(help == null){
+					JOptionPane.showMessageDialog(frame,"No help found");
+				}
+				else{
+					JOptionPane.showMessageDialog(frame,help);
+				}
+
+			}
+		});
 		panel_1.add(btnHelp, "2, 8, 3, 1");
 		frame.getContentPane().setLayout(groupLayout);
+		
+		NodeList list =engine.getLoc().getElementsByTagName("description");
+		String description = list.item(0).getFirstChild().getNodeValue();
+		output.addElement(description);
 	}
 	
 	public void update(){
@@ -248,9 +266,9 @@ public class GUI {
 		
 		
 		//Main text
-		list =engine.getLoc().getElementsByTagName("description");
+		/*list =engine.getLoc().getElementsByTagName("description");
 		String description = list.item(0).getFirstChild().getNodeValue();
-		output.append(description + "\n");
+		output.append(description + "\n");*/
 		
 		
 		

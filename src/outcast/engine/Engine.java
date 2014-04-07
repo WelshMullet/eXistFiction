@@ -24,6 +24,7 @@ public class Engine {
 	private static ExistManager manager = null;
 	private static Resource location = null;
 	private static Document loc = null;
+	private static Resource player = null;
 	
 	protected Engine(){
 		//defeats instantiation
@@ -87,10 +88,10 @@ public class Engine {
 		String output = "I do not understand" + string + "\n";
 		
 		switch(in[0].toLowerCase()){
-		case "examine" :
+		case "examine" : case "oggle" : 
 			//Switch on in[0] vs possible choices
 			break;
-		case "go" :
+		case "go" : case "exit" : case "proceed" :
 			//Switch on in[0] vs possible choices
 			if(in.length != 1){
 				NodeList list =getLoc().getElementsByTagName("links");
@@ -205,10 +206,14 @@ public class Engine {
 			break;
 		case "pick":
 			if (in[1] != "up"){
+				
 				break;
 			}
 		case "take":
 			//Switch on in[0] vs possible choices
+			break;
+		case "drop":
+			
 			break;
 		default :
 			return ("I do not understand " + string + "\n");
@@ -273,6 +278,41 @@ public class Engine {
 		
 		
 		return 0;
+	}
+	
+	public String getHelp(){
+		Resource res = manager.getResource("db", "help.xml");
+		Document doc = null;
+		String result = null;
+		
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = null;
+		try {
+			dBuilder = dbFactory.newDocumentBuilder();
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		try {
+			doc = dBuilder.parse(new InputSource(new ByteArrayInputStream(res.getContent().toString().getBytes("utf-8"))));
+		} catch (SAXException | IOException | XMLDBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		doc.getDocumentElement().normalize();
+		
+		NodeList nodes = doc.getElementsByTagName("help");
+		
+		try{
+			result = nodes.item(0).getFirstChild().getNodeValue();
+		}
+		catch(Exception e){
+			
+		}
+		
+		return result;
 	}
 	
 	
