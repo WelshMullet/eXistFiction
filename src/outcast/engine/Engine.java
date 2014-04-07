@@ -84,7 +84,7 @@ public class Engine {
 
 	public String parseInput(String string) {
 		String[] in = string.split(" ");
-		String output = "I do not understand" + string;
+		String output = "I do not understand" + string + "\n";
 		
 		switch(in[0].toLowerCase()){
 		case "examine" :
@@ -199,7 +199,7 @@ public class Engine {
 				
 			}
 			else{
-				output = "Go where?";
+				output = "Go where?\n";
 			}
 
 			break;
@@ -211,7 +211,7 @@ public class Engine {
 			//Switch on in[0] vs possible choices
 			break;
 		default :
-			return ("I do not understand " + string);
+			return ("I do not understand " + string + "\n");
 		}
 		return (output);
 	}
@@ -232,6 +232,48 @@ public class Engine {
 		Engine.loc = loc;
 	}
 	
+	public int moveItem(String invOne, String invTwo, String item){
+		//Moves item from xml file at invOne to xml file at invTwo
+		//returns 0 if success, 1 if not, should not return 1 in production, used to debug xml errors
+		String uri1 = "db/locations", uri2 = "db/locations";
+		Resource loc1, loc2;
+		Document first = null, second = null;
+		
+		if(invOne == "player.xml"){
+			uri1 = "db/player";
+		}
+		if(invTwo == "player.xml"){
+			uri2 = "db/player";
+		}
+		
+		loc1 = manager.getResource(uri1, invOne);
+		loc2 = manager.getResource(uri2, invTwo);
+		
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = null;
+		try {
+			dBuilder = dbFactory.newDocumentBuilder();
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		try {
+			first = dBuilder.parse(new InputSource(new ByteArrayInputStream(loc1.getContent().toString().getBytes("utf-8"))));
+			second = dBuilder.parse(new InputSource(new ByteArrayInputStream(loc2.getContent().toString().getBytes("utf-8"))));
+		} catch (SAXException | IOException | XMLDBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		first.getDocumentElement().normalize();
+		second.getDocumentElement().normalize();
+		
+		
+		
+		
+		return 0;
+	}
 	
 	
 }

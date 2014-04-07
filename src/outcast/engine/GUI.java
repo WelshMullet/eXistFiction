@@ -1,5 +1,6 @@
 package outcast.engine;
 
+import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
 import java.awt.Canvas;
@@ -19,25 +20,37 @@ import java.awt.event.ActionEvent;
 import java.awt.Dimension;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.awt.geom.AffineTransform;
+import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 
 import javax.swing.JLabel;
 
 import org.w3c.dom.DOMException;
 import org.w3c.dom.NodeList;
+import org.xmldb.api.base.Resource;
 import org.xmldb.api.base.XMLDBException;
+
 import javax.swing.JPanel;
 import javax.swing.SwingConstants;
+
 import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.forms.layout.ColumnSpec;
 import com.jgoodies.forms.factories.FormFactory;
 import com.jgoodies.forms.layout.RowSpec;
+
 import javax.swing.JList;
 import javax.swing.border.BevelBorder;
 import javax.swing.AbstractListModel;
 import javax.swing.ListSelectionModel;
+
 import java.awt.Font;
 import java.awt.BorderLayout;
+import java.awt.Image;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import javax.swing.DropMode;
 import javax.swing.JTextArea;
 
@@ -79,8 +92,9 @@ public class GUI {
 		JButton btnEnter = new JButton("enter");
 		btnEnter.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				output.append(engine.parseInput(input.getText()));
+				engine.parseInput(input.getText());
 				input.setText("");
+				update();
 			}
 		});
 		
@@ -90,8 +104,9 @@ public class GUI {
 			public void keyPressed(KeyEvent arg0) {
 				if(arg0.getKeyCode() == KeyEvent.VK_ENTER){
 					String text =input.getText();
-					output.append(engine.parseInput(text));
+					engine.parseInput(text);
 					input.setText("");
+					update();
 				}
 			}
 		});
@@ -196,25 +211,44 @@ public class GUI {
 	public void update(){
 		
 		//Background
-		/*
+		
 		BufferedImage wPic = null;
 		NodeList list =engine.getLoc().getElementsByTagName("background");
 		String background = list.item(0).getFirstChild().getNodeValue();
 		
+        URL url;
 		try {
-			wPic = (BufferedImage) manager.getResource("db/locations/images", background ).getContent();
-		} catch (DOMException e) {
+			url = new URL("http://localhost:8080/exist/rest/locations/images/" + background);
+			wPic = ImageIO.read(url);
+		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (XMLDBException e) {
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		image.setIcon(new ImageIcon(wPic) );
-		*/
+        
+		int w = image.getWidth();
+		int h = image.getHeight();
+		int a = wPic.getWidth();
+		int b = wPic.getHeight();
+		double x = 1.0;
+		double y = 1.0;
+		
+		x = ((double)w/a);
+		y = ((double)h/b);
+		BufferedImage after = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
+		AffineTransform at = new AffineTransform();
+		at.scale(x,y);
+		AffineTransformOp scaleOp = 
+		   new AffineTransformOp(at, AffineTransformOp.TYPE_BILINEAR);
+		after = scaleOp.filter(wPic, after);
+		
+		image.setIcon(new ImageIcon(after) );
+		
 		
 		//Main text
-		NodeList list =engine.getLoc().getElementsByTagName("description");
+		list =engine.getLoc().getElementsByTagName("description");
 		String description = list.item(0).getFirstChild().getNodeValue();
 		output.append(description + "\n");
 		

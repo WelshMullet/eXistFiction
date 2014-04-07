@@ -70,20 +70,37 @@ public class ExistManager {
     	if(collection == null){
     		collection = ""; //default path
     	}
-    	XMLResource res = null;
+    	//XMLResource res = null;
+    	Resource res = null;
     	
     	try{
     	Collection col = DatabaseManager.getCollection(URI + collection);
 		col.setProperty(OutputKeys.INDENT, "yes");
 		col.setProperty(EXistOutputKeys.EXPAND_XINCLUDES, "no");
         col.setProperty(EXistOutputKeys.PROCESS_XSL_PI, "yes");
-		res = (XMLResource)col.getResource(resource);
+		//res = (XMLResource)col.getResource(resource);
+		res = col.getResource(resource);
     	}
     	catch(Exception e){
     		
     	}
     	return res;
 
+    }
+    
+    public int storeResource(String collection, Resource resource){
+    	try{
+    	Collection col = DatabaseManager.getCollection(URI + collection);
+		col.setProperty(OutputKeys.INDENT, "yes");
+		col.setProperty(EXistOutputKeys.EXPAND_XINCLUDES, "no");
+        col.setProperty(EXistOutputKeys.PROCESS_XSL_PI, "yes");
+		col.storeResource(resource);
+    	}
+    	catch(Exception e){
+    		//collection not found or resource not stored
+    		return 1;
+    	}
+    	return 0;
     }
     
     public int shutdown() {
