@@ -1,7 +1,21 @@
 package outcast.engine;
 
+import java.awt.Dimension;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.net.URISyntaxException;
+
+import javax.swing.JFileChooser;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
 
+import org.exist.backup.*;
+import org.exist.backup.restore.listener.AbstractRestoreListener;
+import org.exist.backup.restore.listener.DefaultRestoreListener;
+import org.exist.backup.restore.listener.RestoreListener;
+import org.xml.sax.SAXException;
 import org.xmldb.api.DatabaseManager;
 import org.xmldb.api.base.Collection;
 import org.xmldb.api.base.Database;
@@ -10,6 +24,7 @@ import org.xmldb.api.base.XMLDBException;
 import org.xmldb.api.modules.XMLResource;
 import org.exist.storage.serializers.EXistOutputKeys;
 import org.exist.xmldb.DatabaseInstanceManager;
+import org.exist.xmldb.XmldbURI;
 
 
 public class ExistManager {
@@ -53,15 +68,47 @@ public class ExistManager {
 	}
 	
 	public int save(){
+		JFileChooser fc = new JFileChooser();
 		
-		//Add save code here. Use exist backup?
-		
+		if (fc.showSaveDialog(null) == JFileChooser.APPROVE_OPTION) {
+            File file = fc.getSelectedFile();
+
+		Backup backup = new Backup("admin", "", file.getAbsolutePath() + ".zip", XmldbURI.create(URI+"/db"));
+		try {
+			backup.backup(false, null);
+		} catch (XMLDBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		}
 		return 0;
 	}
 	
 	public int load(){
+		JFileChooser fc = new JFileChooser();
+		fc.setFileFilter(new FileNameExtensionFilter(null, "zip"));
 		
-		//Add load code here. Use exist restore?
+		
+		if (fc.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+            File file = fc.getSelectedFile();
+
+            Restore restore = new Restore();
+            RestoreListener listener = new DefaultRestoreListener();
+            try {
+				restore.restore(listener, "admin", "", "", file, URI);
+			} catch (XMLDBException | IOException
+					| SAXException | ParserConfigurationException
+					| URISyntaxException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 		
 		return 0;
 	}
@@ -107,7 +154,7 @@ public class ExistManager {
     // shut down the database
     Collection col;
 	try {
-		col = DatabaseManager.getCollection("xmldb:exist://localhost:8080/exist/xmlrpc/db/", "admin", "admin");
+		col = DatabaseManager.getCollection("xmldb:exist://localhost:8080/exist/xmlrpc/db/", "admin", "");
 	    DatabaseInstanceManager manager = (DatabaseInstanceManager) 
 	    col.getService("DatabaseInstanceManager", "1.0");
 	    manager.shutdown();

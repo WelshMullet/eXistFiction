@@ -36,6 +36,9 @@ public class Engine {
 		if (instance == null) {
 			instance = new Engine();
 			manager = ExistManager.getInstance();
+			
+			manager.load();
+			
 			setLocation(manager.getResource("db/locations", "start.xml"));
 			setPlayer(manager.getResource("db/player", "data.xml"));
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -225,12 +228,26 @@ public class Engine {
 
 			break;
 		case "pick":
-			if (in[1] != "up"){
+			if(in.length != 1){
+				if(in[1] == "up"){
+					if(in.length != 2){
+						list =getLoc().getElementsByTagName("inventory");
+						
+					}
+					else{
+						output = "Pick up what?\n";
+					}
+				}
+			}
+			
+				
+				
 				
 				break;
-			}
+			
 		case "take":
 			//Switch on in[0] vs possible choices
+			
 			break;
 		case "drop":
 			

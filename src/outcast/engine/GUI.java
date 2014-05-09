@@ -14,6 +14,7 @@ import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JButton;
 
@@ -55,6 +56,7 @@ import java.net.URL;
 
 import javax.swing.DropMode;
 import javax.swing.JTextArea;
+import javax.swing.JScrollBar;
 
 public class GUI {
 
@@ -122,19 +124,21 @@ public class GUI {
 		JPanel panel_1 = new JPanel();
 		
 		JList outputList = new JList(output);
+		outputList.setFont(new Font("Tahoma", Font.PLAIN, 10));
+		
 		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.TRAILING)
 				.addGroup(groupLayout.createSequentialGroup()
 					.addContainerGap()
 					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-						.addComponent(outputList, GroupLayout.DEFAULT_SIZE, 1036, Short.MAX_VALUE)
 						.addComponent(image, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 1036, Short.MAX_VALUE)
 						.addGroup(groupLayout.createSequentialGroup()
 							.addComponent(input, GroupLayout.DEFAULT_SIZE, 971, Short.MAX_VALUE)
 							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(btnEnter)))
-					.addGap(18)
+							.addComponent(btnEnter))
+						.addComponent(outputList, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 1048, Short.MAX_VALUE))
+					.addPreferredGap(ComponentPlacement.RELATED)
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
 						.addComponent(panel_1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 						.addComponent(panel, GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE))
@@ -190,9 +194,11 @@ public class GUI {
 				FormFactory.RELATED_GAP_ROWSPEC,
 				FormFactory.DEFAULT_ROWSPEC,
 				FormFactory.RELATED_GAP_ROWSPEC,
+				FormFactory.DEFAULT_ROWSPEC,
+				FormFactory.RELATED_GAP_ROWSPEC,
 				FormFactory.DEFAULT_ROWSPEC,}));
 		
-		JButton btnQuit = new JButton("Quit");
+		JButton btnQuit = new JButton("Quit to desktop");
 		btnQuit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
@@ -200,10 +206,20 @@ public class GUI {
 		});
 		panel_1.add(btnQuit, "2, 2, 3, 1");
 		
-		JButton btnSave = new JButton("Save");
+		JButton btnSave = new JButton("Save Game");
+		btnSave.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				manager.save();
+			}
+		});
 		panel_1.add(btnSave, "2, 4, 3, 1");
 		
-		JButton btnLoad = new JButton("Load");
+		JButton btnLoad = new JButton("Load Game");
+		btnLoad.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				manager.load();
+			}
+		});
 		panel_1.add(btnLoad, "2, 6, 3, 1");
 		
 		JButton btnHelp = new JButton("Help");
@@ -220,6 +236,9 @@ public class GUI {
 			}
 		});
 		panel_1.add(btnHelp, "2, 8, 3, 1");
+		
+		JButton btnNew = new JButton("New Game");
+		panel_1.add(btnNew, "2, 10, 3, 1");
 		frame.getContentPane().setLayout(groupLayout);
 		
 		NodeList list =engine.getLoc().getElementsByTagName("description");
